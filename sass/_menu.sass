@@ -1,0 +1,154 @@
+.menu
+	&__head
+		// font-family: Roboto, sans-serif
+		padding-top: 17px
+		padding-bottom: 17px
+		margin-bottom: 22px
+
+	
+	
+	
+	
+	&__foot
+
+
+	&-ext
+		// position: fixed
+		width: 100%
+		z-index: 100
+
+		&__head
+			height: 50px
+			top: 0
+			// background-color: $bg-light
+			margin-top: 0px
+			padding-top: 20px
+			padding-bottom: 50px
+			// margin-bottom: 20px
+			ul 
+				margin-bottom: 20px
+				padding-bottom: 0
+				padding-left: 0
+				display: flex
+				flex-direction: row
+				justify-content: space-between
+				list-style: none
+				li
+					padding-bottom: 0
+					a
+						color: #fff
+						text-decoration: none
+						&:hover
+							cursor: pointer
+							color: $active-color
+
+		&__foot
+			// height: 50px
+			background-color: $bg-dark
+			padding-bottom: 20px
+			// margin-bottom: 20px
+			ul 
+				// margin-bottom: 50px
+				padding-bottom: 0
+				padding-left: 0
+				display: flex
+				flex-direction: row
+				justify-content: space-between
+				list-style: none
+				li
+					padding-bottom: 0
+					a
+						color: $text-color-light
+						text-decoration: none
+						&:hover
+							cursor: pointer
+							color: $active-color
+
+
+
+
+
+
+
+
+
+
+	// &-link
+		z-index: 500
+		display: none
+		width: 50px
+		height: 50px
+		background-color: transparent
+		border-radius: 50%
+		// box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4)
+		position: fixed
+		top: 20px
+		left: 10px
+		span, span:before, span:after
+			display: block
+			height: 2px
+			width: 18px
+			position: absolute
+			left: 50%
+			margin-left: -9px
+			top: 50%
+			margin-top: -1px
+			background-color: #333
+		span:before
+			transition: all 0.2s
+			content: ""
+			margin-top: -6px
+		span:after
+			transition: all 0.2s
+			content: ""
+			margin-top: 4px
+
+		&_active span
+			background-color: transparent
+			&:before
+				transform: rotate(135deg)
+				margin-top: 0
+			&:after
+				transform: rotate(-135deg)
+				margin-top: 0
+			
+
+	// &-mobil
+		z-index: 490
+		background-color: $menu-bg-color
+		position: fixed
+		width: 100vw
+		height: 100vh
+
+		text-transform: uppercase
+		font-family: Roboto, sans-serif
+		font-size: 12px
+		font-weight: 400
+		line-height: 22px
+		display: flex
+		justify-content: center
+		align-items: center
+
+		transition: all 0.5s
+		left: -100vw
+		ul
+			list-style: none
+			padding: 0
+			text-align: center
+			li
+				width: 100vw
+			a 
+				display: block
+				width: 100%
+				color: #ffffff
+				line-height: 2
+				font-weight: 100
+				letter-spacing: 4px
+				transition: all 0.2s
+				&:hover
+					background-color: rgba(255,255,255,0.6)
+					color: $menu-bg-color
+					text-decoration: none
+
+		&_active
+			left: 0

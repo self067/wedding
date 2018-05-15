@@ -1,0 +1,15 @@
+{
+	"host": "begi-motik.ru",
+    "username": "minad",
+    "password": "Ljcneg35!",
+    "remotePath": "/wedding/",
+    "protocol": "ftp",
+    "port": 21,
+    "fileNameEncoding": "utf8",
+    "autoUpload": true,
+    "autoDelete": false,
+    "autoDownload": false,
+    "ignore": [
+        ".git",
+        "/.vscode"
+]}
