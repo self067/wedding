@@ -1,0 +1,27 @@
+Простейший Tooltip используя CSS.
+Представленный tooltip действительно очень прост. Для его реализации не требуется javaScript. Только CSS.
+
+Описывать совершенно нечего, поэтому просто код:
+
+CSS
+a:hover {
+	background		: #ffffff;	/*необходимо для IE6*/
+	text-decoration	: none;
+}
+a.tooltip span {
+	display			: none; 
+	padding			: 2px 3px; 
+	margin-left		: 8px; 
+	width			: 130px;
+}
+a.tooltip:hover span {
+	display			: inline; 
+	position		: absolute; 
+	background		: #ffffff; 
+	border			: 1px solid #cccccc; 
+	color			: #6c6c6c;
+}
+Теперь, чтобы добавить к ссылке подсказку, присвойте ей класс tooltip, а текст подсказки добавьте в span-е внутри этой ссылки.
+
+HTML
+Простейший <a class="tooltip" href="#">Tooltip<span>Вот такая подсказочка получилась :).</span></a>.

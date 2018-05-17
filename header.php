@@ -42,7 +42,8 @@
 		</div>
 	</section>
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
-	<section class="fscreen fscreen-slider" id="2.first">
+
+<section class="fscreen fscreen-slider" id="2.first">
 
 	<div class="first-slide">
 		<div class="container">
@@ -65,6 +66,37 @@
 
 					<button class="fscreen-text__button button">Создать сайт</button>
 						
+					</div>
+					<!-- /.fistscreen-text -->
+
+			</div>
+			<!-- /.row -->
+		</div>
+		<!-- /.container -->
+	</div>
+	<!-- first-slide -->
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<div class="first-slide">
+		<div class="container">
+			<div class="row align-items-center justify-content-center">
+					<div class="fscreen-text-slider fscreen-text ">
+						<h1 class="fscreen-text__title">
+							Начните свадьбу со своего сайта
+						</h1>
+						<img src="" alt="line-nheart">
+						<!-- /.fistscreen-text__title -->
+						<div class="fscreen-text__subtitle">
+							У вас свадьба и вы хотите создать сайт для этого особого случая ?
+						</div>
+						<!-- /.fistscreen-text__subtitle -->
+
+						<div class="fscreen-text__text">
+							С Forever Together создать сайт это не проблема.
+						</div>
+						<!-- /.fistscreen-text__text -->
+
+						<button class="fscreen-text__button button">Создать сайт</button>
+
 					</div>
 					<!-- /.fistscreen-text -->
 
@@ -107,16 +139,78 @@
 	</div>
 	<!-- first-slide -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<div class="first-slide">
+		<div class="container">
+			<div class="row align-items-center justify-content-center">
+					<div class="fscreen-text-slider fscreen-text ">
+						<h1 class="fscreen-text__title">
+							Начните свадьбу со своего сайта
+						</h1>
+						<img src="" alt="line-nheart">
+						<!-- /.fistscreen-text__title -->
+						<div class="fscreen-text__subtitle">
+							У вас свадьба и вы хотите создать сайт для этого особого случая ?
+						</div>
+						<!-- /.fistscreen-text__subtitle -->
+
+						<div class="fscreen-text__text">
+							С Forever Together создать сайт это не проблема.
+						</div>
+						<!-- /.fistscreen-text__text -->
+
+						<button class="fscreen-text__button button">Создать сайт</button>
+
+					</div>
+					<!-- /.fistscreen-text -->
+
+			</div>
+			<!-- /.row -->
+		</div>
+		<!-- /.container -->
+	</div>
+	<!-- first-slide -->
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<div class="first-slide">
+		<div class="container">
+			<div class="row align-items-center justify-content-center">
+					<div class="fscreen-text-slider fscreen-text ">
+						<h1 class="fscreen-text__title">
+							Начните свадьбу со своего сайта
+						</h1>
+						<img src="" alt="line-nheart">
+						<!-- /.fistscreen-text__title -->
+						<div class="fscreen-text__subtitle">
+							У вас свадьба и вы хотите создать сайт для этого особого случая ?
+						</div>
+						<!-- /.fistscreen-text__subtitle -->
+
+						<div class="fscreen-text__text">
+							С Forever Together создать сайт это не проблема.
+						</div>
+						<!-- /.fistscreen-text__text -->
+
+						<button class="fscreen-text__button button">Создать сайт</button>
+
+					</div>
+					<!-- /.fistscreen-text -->
+
+			</div>
+			<!-- /.row -->
+		</div>
+		<!-- /.container -->
+	</div>
+	<!-- first-slide -->
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 </section>
 <!-- /.fistscreen -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 
-
 		</div>
 		<!-- /.container -->
 	</header>
 	<!-- /.header -->
+
 
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@	 -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@	 -->

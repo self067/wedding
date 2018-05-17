@@ -45,17 +45,11 @@ body {
 }
 
 .button:hover {
-  background-color: #fb92a8;
+  background-color: #fdc3cf;
   cursor: pointer;
 }
 
 .button img {
-  vertical-align: middle;
-}
-
-.button_big {
-  padding-top: 18px;
-  padding-bottom: 18px;
   vertical-align: middle;
 }
 
@@ -123,10 +117,110 @@ body {
   z-index: -1;
 }
 
+.tooltip {
+  font-size: 20px;
+  color: red;
+}
+
+.tooltip-inner {
+  background-color: #fff;
+  color: #000;
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+          box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+}
+
+.arrow {
+  color: red;
+  background-color: yellow;
+}
+
+.tooltip.right .tooltip.left .tooltip-arrow {
+  display: none;
+  color: red !important;
+  background-color: yellow !important;
+  border-top: 5px solid red;
+  border-right: 5px solid #FF0000 !important;
+  border-left: 5px solid #FF0000;
+  border-top-color: red;
+  border-right-color: red;
+  border-left-color: red;
+}
+
+.btn-block {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.btn-blocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  border-bottom: 1px black dotted;
+  background-color: #fff;
+}
+
+.menu-el {
+  text-align: center;
+  margin: 0 auto;
+}
+
 .menu__head {
   padding-top: 17px;
   padding-bottom: 17px;
   margin-bottom: 22px;
+}
+
+.menu-left {
+  float: left;
+  padding-top: 10px;
+  width: 150px;
+  height: 100%;
+  background-color: #f9f9f9;
+}
+
+.menu-left ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.menu-left ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.menu-left ul li:hover {
+  background-color: #f0f0f0;
+  border-left: 5px #f97b93 solid;
+}
+
+.menu-left ul li a {
+  color: #000000;
+}
+
+.menu-left ul li a:hover {
+  background-color: #f0f0f0;
+  text-decoration: none;
+  color: #000000;
 }
 
 .menu-ext {
@@ -208,6 +302,45 @@ body {
   color: #fa7995;
 }
 
+.menu-build {
+  background-color: #333333;
+}
+
+.menu-build__head {
+  background-color: #333333;
+  padding-bottom: 20px;
+}
+
+.menu-build__head ul {
+  padding-bottom: 0;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+.menu-build__head ul li {
+  padding-bottom: 0;
+}
+
+.menu-build__head ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu-build__head ul li a:hover {
+  cursor: pointer;
+  color: #fa7995;
+}
+
 .header {
   background: url("../img/bg.jpg") center no-repeat;
   background-size: cover;
@@ -215,6 +348,7 @@ body {
 }
 
 .footer {
+  margin-top: 200px;
   padding-top: 36px;
   padding-bottom: 39px;
   text-align: center;
@@ -238,8 +372,62 @@ body {
 }
 
 .fscreen-slider__dots {
-  color: yellow;
+  position: absolute;
+  top: 50px;
+  right: -50px;
+}
+
+.fscreen-slider__dots__app {
+  display: inline-block;
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.slick-dots {
+  position: absolute;
+  top: 50px;
+  right: -50px;
+}
+
+.slick-dots li button {
+  display: none;
+}
+
+.slick-dots ul {
+  list-style-type: circle;
+}
+
+.builder04 {
+  padding-top: 150px;
+  text-align: center;
+}
+
+.builder04-page {
+  margin-bottom: 150px;
+}
+
+.video-youtube {
+  margin: auto;
+  text-align: center;
+}
+
+.videoWidget-form {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #faf8f9;
+}
+
+.s03-tools {
+  font-family: "Amsdam cyr-lat";
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.s03-tools h2 {
+  font-family: "Amsdam cyr-lat";
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 30px;
 }

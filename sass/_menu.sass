@@ -1,3 +1,70 @@
+
+
+
+.tooltip
+	font-size: 20px	
+	color: red
+	// background-color: yellow
+.tooltip-inner
+	background-color: #fff  
+	color: #000
+	// border: 1px #000 solid
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4)
+	
+
+.arrow
+	color: red 
+	background-color: yellow
+	// border-right: 1px solid #FFf
+	// border-left: 5px solid #FFf
+	// border-top: 5px solid red
+	// border-down: 5px solid red
+	
+.tooltip.right	.tooltip.left .tooltip-arrow 
+	display: none
+	color: red !important
+	background-color: yellow !important
+	border-top: 5px solid red
+	border-right: 5px solid #FF0000 !important
+	border-left: 5px solid #FF0000 
+	border-top-color: red
+	border-right-color: red
+	border-left-color: red
+
+
+.btn-block
+	padding-top: 10px	
+	padding-bottom: 10px
+	flex-basis: 10%
+	margin-left: 20px	
+	margin-right: 20px
+	background-color: #000000
+	color: #ffffff
+	text-align: center
+	vertical-align: middle	
+	// border:	1px red solid
+	border-top-left-radius: 10px
+	border-top-right-radius: 10px
+
+	&s
+		display: flex
+		flex-direction: row
+		justify-content: flex-end
+		align-items: flex-end
+		border-bottom: 1px black dotted
+		background-color: #fff
+
+
+
+
+
+.menu-el
+	text-align: center
+	margin: 0 auto
+//	display: block
+	// flex-direction: column			
+	&__text
+
 .menu
 	&__head
 		// font-family: Roboto, sans-serif
@@ -5,18 +72,40 @@
 		padding-bottom: 17px
 		margin-bottom: 22px
 
-	
-	
-	
-	
 	&__foot
+	
+	&-left
+		float: left
+		// display: inline-block
+		padding-top: 10px
+		width: 150px
+		height: 100%
+		background-color: $menu-left-bgcolor
+		// background-color: yellow
+		// border: 1px red solid
+		ul
+			list-style: none
+			padding-left: 0
+		
+			li
+				padding-top: 10px
+				padding-bottom: 10px
+				&:hover
+					background-color: $menu-left-bgactive
+					border-left: 5px $menu-left-line solid
+				a
+					// background-color: $menu-left-bgcolor
+					color: #000000
+					&:hover
+						background-color: $menu-left-bgactive
+						text-decoration: none
+						color: #000000
 
 
 	&-ext
 		// position: fixed
 		width: 100%
 		z-index: 100
-
 		&__head
 			height: 50px
 			top: 0
@@ -64,14 +153,30 @@
 							cursor: pointer
 							color: $active-color
 
+	&-build
+		background-color: $bg-dark
 
-
-
-
-
-
-
-
+		&__head
+			background-color: $bg-dark
+			padding-bottom: 20px
+			// margin-bottom: 20px
+			ul 
+				// margin-bottom: 50px
+				padding-bottom: 0
+				padding-left: 0
+				display: flex
+				flex-direction: row
+				justify-content: space-between
+				list-style: none
+				li
+					padding-bottom: 0
+					a
+						color: $text-color-light
+						text-decoration: none
+						&:hover
+							cursor: pointer
+							color: $active-color
+		
 
 	// &-link
 		z-index: 500

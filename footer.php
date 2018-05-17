@@ -56,11 +56,10 @@
 			// autoplay: true,
   		autoplaySpeed: 4000,
 			dots: true,
-			dotsClass: 'fscreen-slider__dots',
-
+			// dotsClass: 'fscreen-slider__dots',
 			vertical: true,
 			verticalSwiping: true,
- 			// appendDots: '.slider-dots'
+ 			// appendDots: 'fscreen-slider-dots__app', 
 // Change where the navigation dots are attached (Selector, htmlString, Array, Element, jQuery object)
 			prevArrow: '<div class="slider-arrow slider-arrow_mobile_down"></div>',
 			nextArrow: '<div class="slider-arrow  slider-arrow__down"><img src="img/arrowDown.png" alt="V"></div>'

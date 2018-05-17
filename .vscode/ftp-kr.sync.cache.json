@@ -1,0 +1,368 @@
+{
+  "ftp://begi-motik.ru:21@minad": {
+    "wedding": {
+      ".vscode": {},
+      "css": {
+        "bootstrap.css": {
+          "type": "-",
+          "size": 173442,
+          "lmtime": 1526413813989,
+          "modified": false
+        },
+        "bootstrap.min.css": {
+          "type": "-",
+          "size": 140421,
+          "lmtime": 0,
+          "modified": false
+        },
+        "fonts.css": {
+          "type": "-",
+          "size": 0,
+          "lmtime": 0,
+          "modified": false
+        },
+        "style.full.css": {
+          "type": "-",
+          "size": 6971,
+          "lmtime": 1526502974187,
+          "modified": false
+        },
+        "style.min.css": {
+          "type": "-",
+          "size": 5584,
+          "lmtime": 1526502974190,
+          "modified": false
+        },
+        "tooltip.css": {
+          "type": "-",
+          "size": 776,
+          "lmtime": 1526411797530,
+          "modified": false
+        },
+        "_tooltip.sass": {
+          "type": "-",
+          "size": 753,
+          "lmtime": 1526411513842,
+          "modified": false
+        }
+      },
+      "fonts": {},
+      "footer.php": {
+        "type": "-",
+        "size": 1699,
+        "lmtime": 1526376499212,
+        "modified": false
+      },
+      "header.php": {
+        "type": "-",
+        "size": 8301,
+        "lmtime": 1526496965252,
+        "modified": false
+      },
+      "img": {
+        "04_Site builder.jpg": {
+          "type": "-",
+          "size": 1175711,
+          "lmtime": 1526282049164,
+          "modified": false
+        },
+        "arrowDown.png": {
+          "type": "-",
+          "size": 666,
+          "lmtime": 1526043405000,
+          "modified": false
+        },
+        "bg.jpg": {
+          "type": "-",
+          "size": 239383,
+          "lmtime": 1526041177901,
+          "modified": false
+        },
+        "logo.png": {
+          "type": "-",
+          "size": 12939,
+          "lmtime": 1526312463568,
+          "modified": false
+        },
+        "menu": {
+          "ps3813.tmp": {
+            "type": "-",
+            "size": 0,
+            "lmtime": 1526382423699,
+            "modified": false
+          },
+          "Приглашение.png": {
+            "type": "-",
+            "size": 5077,
+            "lmtime": 1526382489098,
+            "modified": false
+          },
+          "Дресс-код.png": {
+            "type": "-",
+            "size": 4971,
+            "lmtime": 1526382817084,
+            "modified": false
+          },
+          "Фотоальбомы.png": {
+            "type": "-",
+            "size": 5330,
+            "lmtime": 1526382772901,
+            "modified": false
+          },
+          "История.png": {
+            "type": "-",
+            "size": 4598,
+            "lmtime": 1526382716270,
+            "modified": false
+          },
+          "Карта проезда.png": {
+            "type": "-",
+            "size": 4886,
+            "lmtime": 1526382687613,
+            "modified": false
+          },
+          "Список гостей.png": {
+            "type": "-",
+            "size": 4540,
+            "lmtime": 1526382639778,
+            "modified": false
+          },
+          "Фон.png": {
+            "type": "-",
+            "size": 4450,
+            "lmtime": 1526382603611,
+            "modified": false
+          }
+        },
+        "pic1.jpg": {
+          "type": "-",
+          "size": 1175711,
+          "lmtime": 1526282049164,
+          "modified": false
+        },
+        "pic2.jpg": {
+          "type": "-",
+          "size": 1175711,
+          "lmtime": 1526282049164,
+          "modified": false
+        },
+        "ps4CD1.tmp": {
+          "type": "-",
+          "size": 0,
+          "lmtime": 1526312371027,
+          "modified": false
+        },
+        "Новая папка": {}
+      },
+      "index.html": {
+        "type": "-",
+        "size": 7255,
+        "lmtime": 1526503971011,
+        "modified": false
+      },
+      "index.php": {
+        "type": "-",
+        "size": 1660,
+        "lmtime": 1526383378301,
+        "modified": false
+      },
+      "js": {
+        "bootstrap.bundle.min.js": {
+          "type": "-",
+          "size": 70682,
+          "lmtime": 1526413814183,
+          "modified": false
+        },
+        "bootstrap.js": {
+          "type": "-",
+          "size": 122579,
+          "lmtime": 1526413814173,
+          "modified": false
+        },
+        "bootstrap.min.js": {
+          "type": "-",
+          "size": 50731,
+          "lmtime": 1526413814192,
+          "modified": false
+        },
+        "jquery.min.js": {
+          "type": "-",
+          "size": 86927,
+          "lmtime": 1524930111721,
+          "modified": false
+        },
+        "popper.min.js": {
+          "type": "-",
+          "size": 20337,
+          "lmtime": 1526412352612,
+          "modified": false
+        },
+        "bootstrap.bundle.js": {
+          "type": "-",
+          "size": 211159,
+          "lmtime": 1526413814132,
+          "modified": false
+        }
+      },
+      "menu.php": {
+        "type": "-",
+        "size": 1480,
+        "lmtime": 1526312757439,
+        "modified": false
+      },
+      "sass": {
+        "style.sass": {
+          "type": "-",
+          "size": 326,
+          "lmtime": 1526459546179,
+          "modified": false
+        },
+        "_builder04.sass": {
+          "type": "-",
+          "size": 172,
+          "lmtime": 1526403557268,
+          "modified": false
+        },
+        "_footer.sass": {
+          "type": "-",
+          "size": 407,
+          "lmtime": 1526404933072,
+          "modified": false
+        },
+        "_fscreen.sass": {
+          "type": "-",
+          "size": 370,
+          "lmtime": 1526378112277,
+          "modified": false
+        },
+        "_header.sass": {
+          "type": "-",
+          "size": 153,
+          "lmtime": 1526325336703,
+          "modified": false
+        },
+        "_interface.sass": {
+          "type": "-",
+          "size": 1658,
+          "lmtime": 1526395439185,
+          "modified": false
+        },
+        "_menu.sass": {
+          "type": "-",
+          "size": 5076,
+          "lmtime": 1526502973845,
+          "modified": false
+        },
+        "_reset.sass": {
+          "type": "-",
+          "size": 157,
+          "lmtime": 1526315865111,
+          "modified": false
+        },
+        "_tooltip.sass": {
+          "type": "-",
+          "size": 753,
+          "lmtime": 1526411513842,
+          "modified": false
+        },
+        "_variables.sass": {
+          "type": "-",
+          "size": 362,
+          "lmtime": 1526393944829,
+          "modified": false
+        },
+        "_videowidget.sass": {
+          "type": "-",
+          "size": 88,
+          "lmtime": 1526405754266,
+          "modified": false
+        }
+      },
+      "slick": {
+        "ajax-loader.gif": {
+          "type": "-",
+          "size": 4178,
+          "lmtime": 1505214494000,
+          "modified": false
+        },
+        "config.rb": {
+          "type": "-",
+          "size": 161,
+          "lmtime": 1505214494000,
+          "modified": false
+        },
+        "slick-theme.css": {
+          "type": "-",
+          "size": 3145,
+          "lmtime": 1505214494000,
+          "modified": false
+        },
+        "slick.css": {
+          "type": "-",
+          "size": 1776,
+          "lmtime": 1505214494000,
+          "modified": false
+        },
+        "slick.js": {
+          "type": "-",
+          "size": 88454,
+          "lmtime": 1505214494000,
+          "modified": false
+        },
+        "slick.min.js": {
+          "type": "-",
+          "size": 42863,
+          "lmtime": 1505214494000,
+          "modified": false
+        },
+        "fonts": {
+          "slick.eot": {
+            "type": "-",
+            "size": 2048,
+            "lmtime": 1505214494000,
+            "modified": false
+          },
+          "slick.svg": {
+            "type": "-",
+            "size": 2152,
+            "lmtime": 1505214494000,
+            "modified": false
+          },
+          "slick.ttf": {
+            "type": "-",
+            "size": 1892,
+            "lmtime": 1505214494000,
+            "modified": false
+          },
+          "slick.woff": {
+            "type": "-",
+            "size": 1380,
+            "lmtime": 1505214494000,
+            "modified": false
+          }
+        }
+      },
+      "tooltip": {
+        "tooltip.css": {
+          "type": "-",
+          "size": 776,
+          "lmtime": 1526411797530,
+          "modified": false
+        },
+        "_tooltip.sass": {
+          "type": "-",
+          "size": 753,
+          "lmtime": 1526411513842,
+          "modified": false
+        },
+        "tooltip.txt": {
+          "type": "-",
+          "size": 790,
+          "lmtime": 1526416098068,
+          "modified": false
+        }
+      }
+    }
+  },
+  "$version": 1
+}
