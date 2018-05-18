@@ -7,7 +7,21 @@ img {
   max-width: 100%;
 }
 
+input, button {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 input:focus, button:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+input:invalid, button:invalid {
+  -webkit-box-shadow: none;
+          box-shadow: none;
   outline: none;
 }
 
@@ -16,36 +30,70 @@ input:focus, button:focus {
   outline: none;
 }
 
+h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+
 body {
   background-color: #fff;
 }
 
-.section-title {
-  font-size: 27px;
-  font-weight: 700;
-  text-transform: uppercase;
+.section {
   text-align: center;
-  margin-bottom: 29px;
+  text-align: center;
+}
+
+.section-title {
+  margin-top: 90px;
+  margin-bottom: 35px;
+  color: #333333;
+  font-family: "Amsdam cyr-lat";
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
 }
 
 .section-title::after {
   content: "";
-  margin-top: 12px;
+  margin-top: 25px;
   display: block;
   height: 6px;
-  background: url(../img/wavy-line.png) center no-repeat;
+  background: url("../img/01_main/pink-line.svg") center no-repeat;
+}
+
+.section-subtitle {
+  margin: auto;
+  margin-bottom: 30px;
+  max-width: 60%;
+  color: #333333;
+  font-family: "Proxima Nova Lt";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  text-align: center;
 }
 
 .button {
+  font-family: "Helvetica Neue Cyr";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 50.4px;
   background-color: #fa7995;
   border: 1px solid transparent;
   color: #ffffff;
-  padding: 10px 22px;
+  padding: 0px 35px;
   border-radius: 25px;
 }
 
 .button:hover {
-  background-color: #fdc3cf;
+  background-color: #fcaabc;
   cursor: pointer;
 }
 
@@ -113,8 +161,19 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
   z-index: -1;
+}
+
+.dark-bg3::before {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.dark-bg5::before {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.dark-bg8::before {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .tooltip {
@@ -188,6 +247,10 @@ body {
   padding-top: 17px;
   padding-bottom: 17px;
   margin-bottom: 22px;
+  font-family: "Proxima Nova - Semibold";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
 }
 
 .menu-left {
@@ -268,7 +331,6 @@ body {
 }
 
 .menu-ext__foot {
-  background-color: #333333;
   padding-bottom: 20px;
 }
 
@@ -342,9 +404,44 @@ body {
 }
 
 .header {
-  background: url("../img/bg.jpg") center no-repeat;
+  background: url("../img/01_main/1.head/bg-grad.jpg");
+  height: 100%;
   background-size: cover;
   color: #ffffff;
+  text-align: center;
+}
+
+.header img {
+  margin: auto;
+}
+
+.header::after {
+  background: url("../img/01_main/1.head/gradient.png");
+  position: absolute;
+  display: inline-block;
+  opacity: 0.5;
+  z-index: 3;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.grad {
+  position: relative;
+  z-index: 2;
+}
+
+.grad::after {
+  background: url("../img/01_main/1.head/gradient.png");
+  position: absolute;
+  display: inline-block;
+  opacity: 0.5;
+  z-index: 5;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .footer {
@@ -352,7 +449,8 @@ body {
   padding-top: 36px;
   padding-bottom: 39px;
   text-align: center;
-  background-color: #333333;
+  background: #333333 url("../img/bg-menu__bottom.jpg") center no-repeat;
+  background-size: cover;
 }
 
 .footer-text {
@@ -363,12 +461,18 @@ body {
   font-weight: 300;
   line-height: 17px;
   border-top: 2px #999999 solid;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 17px;
 }
 
 .fscreen {
-  margin-top: 50px;
-  padding-bottom: 50px;
+  margin-top: 150px;
+  padding-bottom: 30px;
   text-align: center;
+  outline: none;
 }
 
 .fscreen-slider__dots {
@@ -382,6 +486,39 @@ body {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.fscreen-text__title {
+  margin-bottom: 30px;
+  font-family: "Proxima Nova";
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.fscreen-text__subtitle {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.fscreen-text__text {
+  margin-bottom: 50px;
+}
+
+.fscreen-text__button {
+  margin-bottom: 10px;
+}
+
+.fscreen-mouse {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 50px;
+}
+
+.first-slide {
+  outline: none;
+  min-height: 150px;
+  margin-bottom: 150px;
 }
 
 .slick-dots {
@@ -418,16 +555,108 @@ body {
   background-color: #faf8f9;
 }
 
-.s03-tools {
-  font-family: "Amsdam cyr-lat";
-  font-size: 28px;
-  font-weight: bold;
-  line-height: 30px;
+.s03tools {
+  text-align: center;
 }
 
-.s03-tools h2 {
-  font-family: "Amsdam cyr-lat";
-  font-size: 28px;
-  font-weight: bold;
+.s03tools-block {
+  margin-bottom: 60px;
+}
+
+.s03tools-block__title {
+  color: #484848;
+  font-family: "Proxima Nova";
+  line-height: 20.99px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.s03tools-block__text {
+  color: #333333;
+  font-size: 16px;
+  font-family: "Proxima Nova";
+  font-weight: 300;
+}
+
+.s03tools-text {
+  color: #333333;
+  font-family: "Proxima Nova - Semibold";
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 20.99px;
+}
+
+.s03tools img {
+  margin-bottom: 15px;
+}
+
+.s04samples {
+  text-align: center;
+}
+
+.s04samples img {
+  margin-bottom: 55px;
+}
+
+.s04samples-button {
+  margin-top: 40px;
+}
+
+.s05tarifs-button__basic {
+  background-color: #7c7c7c;
+}
+
+.s05tarifs-button__silver {
+  background-color: #69c2f5;
+}
+
+.s05tarifs-button__gold {
+  background-color: #70cb83;
+}
+
+.s05tarifs-title {
+  margin-bottom: 45px;
+  font-family: "Proxima Nova";
+  font-size: 24px;
+  font-weight: 700;
   line-height: 30px;
+  text-align: center;
+}
+
+.s05tarifs-title__basic {
+  color: #7c7c7c;
+}
+
+.s05tarifs-title__silver {
+  color: #69c2f5;
+}
+
+.s05tarifs-title__gold {
+  color: #70cb83;
+}
+
+.s05tarifs-price {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  color: #333333;
+  font-family: "Proxima Nova - Semibold";
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.s06about-title {
+  color: #333333;
+  font-family: "Proxima Nova Rg";
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.s06about-text {
+  color: #484848;
+  font-family: "Proxima Nova Lt";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
 }

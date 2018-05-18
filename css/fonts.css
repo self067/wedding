@@ -1,4 +1,17 @@
 @font-face {
+    font-family: 'Museo Cyrl 100';
+    src: url('../fonts/MuseoCyrl-100.eot');
+    src: local('Museo Cyrl 100'), local('MuseoCyrl-100'),
+        url('../fonts/MuseoCyrl-100.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoCyrl-100.woff') format('woff'),
+        url('../fonts/MuseoCyrl-100.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+
+@font-face {
     font-family: 'Open Sans';
     src: url('../fonts/OpenSans-Light.eot');
     src: local('Open Sans Light'), local('OpenSans-Light'),
@@ -36,7 +49,7 @@
 
 
 @font-face {
-	font-family: 'Proxima Nova-SemiBold';
+	font-family: 'Proxima Nova - SemiBold';
 	src: url('../fonts/ProximaNova-Semibold.eot');
 	src: local('Proxima Nova Semibold'), local('ProximaNova-Semibold'),
 		url('../fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
@@ -86,15 +99,13 @@
 
 
 
-
-
 @font-face {
     font-family: 'Proxima Nova';
-    src: url('subset-ProximaNova-Regular.eot');
+    src: url('../fonts/ProximaNova-Regular.eot');
     src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
-        url('subset-ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
-        url('subset-ProximaNova-Regular.woff') format('woff'),
-        url('subset-ProximaNova-Regular.ttf') format('truetype');
+        url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Regular.woff') format('woff'),
+        url('../fonts/ProximaNova-Regular.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -102,11 +113,11 @@
 
 @font-face {
     font-family: 'Proxima Nova';
-    src: url('subset-ProximaNova-Light.eot');
+    src: url('../fonts/ProximaNova-Light.eot');
     src: local('Proxima Nova Light'), local('ProximaNova-Light'),
-        url('subset-ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
-        url('subset-ProximaNova-Light.woff') format('woff'),
-        url('subset-ProximaNova-Light.ttf') format('truetype');
+        url('../fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Light.woff') format('woff'),
+        url('../fonts/ProximaNova-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }

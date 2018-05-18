@@ -1,9 +1,42 @@
 .header
-	background: url("../img/bg.jpg") center no-repeat
+	// position: relative
+	// background: url("../img/01_main/1.head/bg.jpg") center no-repeat
+	background: url("../img/01_main/1.head/bg-grad.jpg")  
+	height: 100%
 	background-size: cover
 	color: #ffffff
+	text-align: center
+	img
+		margin: auto
 
-	// padding: 50px 0
+	&::after
+		background: url("../img/01_main/1.head/gradient.png") 
+			// content: url("../img/01_main/1.head/gradient.png")
+		position: absolute
+		display: inline-block
+		opacity: 0.5
+		z-index: 3
+		left: 0
+		top: 0
+		width: 100%
+		height: 100%
+
+
+.grad	
+	position: relative
+	z-index: 2
+	&::after
+		background: url("../img/01_main/1.head/gradient.png") 
+			// content: url("../img/01_main/1.head/gradient.png")
+		position: absolute
+		display: inline-block
+		opacity: 0.5
+		z-index: 5
+		left: 0
+		top: 0
+		width: 100%
+		height: 100%
+
 			
 
 

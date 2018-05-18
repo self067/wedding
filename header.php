@@ -1,7 +1,7 @@
-<div id="info"></div>
+<!-- <div id="info"></div> -->
 
-	<header class="header" id="1.header">
-		<div class="container">
+<header class="header dark-bg dark-bg3 grad" id="1.header">
+	<div class="container">
 
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
@@ -12,7 +12,7 @@
 			<div class="menu__head">
 				<ul class="align-items-center">
 					<li>
-						<a href=""><img src="img/logo.png" alt="logo"></a>
+						<a href=""><img src="img/logo-mywedding.png" alt="logo"></a>
 					</li>
 
 					<li>
@@ -22,10 +22,10 @@
 						<a href="#">Инструменты сайта</a>
 					</li>
 					<li>
-						<a href="№"Примеры сайтов</a>
+						<a href="#">Примеры сайтов</a>
 					</li>
 					<li>
-						<a href="№">Цены</a>
+						<a href="#">Цены</a>
 					</li>
 					<li>
 						<a href="№">О нас</a>
@@ -45,170 +45,151 @@
 
 <section class="fscreen fscreen-slider" id="2.first">
 
-	<div class="first-slide">
-		<div class="container">
-			<div class="row align-items-center justify-content-center">
-					<div class="fscreen-text-slider fscreen-text ">
-						<h1 class="fscreen-text__title">
-							Начните свадьбу со своего сайта
-						</h1>
-						<img src="" alt="line-nheart">
+<div class="first-slide">
+	<div class="container">
+		<div class="row align-items-center justify-content-center">
+			<div class="fscreen-text-slider fscreen-text ">
+				<h1 class="fscreen-text__title">
+					Начните свадьбу со своего сайта!
+				</h1>
+				<img src="img/01_main/1.head/decor-line.png" alt="line-nheart">
 						<!-- /.fistscreen-text__title -->
-						<div class="fscreen-text__subtitle">
-							У вас свадьба и вы хотите создать сайт для этого особого случая ?
-						</div>
-						<!-- /.fistscreen-text__subtitle -->
-
-						<div class="fscreen-text__text">
-							С Forever Together создать сайт это не проблема.
-						</div>
-						<!-- /.fistscreen-text__text -->
-
-					<button class="fscreen-text__button button">Создать сайт</button>
-						
-					</div>
-					<!-- /.fistscreen-text -->
-
+				<div class="fscreen-text__subtitle">
+					У вас свадьба и вы хотите создать сайт для этого особого случая?
+				</div>
+				<!-- /.fistscreen-text__subtitle -->
+				<div class="fscreen-text__text">
+					С Forever Together создать сайт это не проблема. Вы можете быстро и бесплатно создать<br> свадебный сайт и делиться впечатлениями с родными и друзьями.
+				</div>
+				<!-- /.fistscreen-text__text -->
+				<button class="fscreen-text__button button">Создать сайт</button>
 			</div>
-			<!-- /.row -->
+					<!-- /.fistscreen-text -->
 		</div>
-		<!-- /.container -->
+		<!-- /.row -->
 	</div>
-	<!-- first-slide -->
+		<!-- /.container -->
+</div>
+<!-- first-slide -->
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <div class="first-slide">
-		<div class="container">
-			<div class="row align-items-center justify-content-center">
-					<div class="fscreen-text-slider fscreen-text ">
-						<h1 class="fscreen-text__title">
-							Начните свадьбу со своего сайта
-						</h1>
-						<img src="" alt="line-nheart">
+	<div class="container">
+		<div class="row align-items-center justify-content-center">
+			<div class="fscreen-text-slider fscreen-text ">
+				<h1 class="fscreen-text__title">
+					Начните свадьбу со своего сайта!
+				</h1>
+				<img src="img/01_main/1.head/decor-line.png" alt="line-nheart">
 						<!-- /.fistscreen-text__title -->
-						<div class="fscreen-text__subtitle">
-							У вас свадьба и вы хотите создать сайт для этого особого случая ?
-						</div>
-						<!-- /.fistscreen-text__subtitle -->
-
-						<div class="fscreen-text__text">
-							С Forever Together создать сайт это не проблема.
-						</div>
-						<!-- /.fistscreen-text__text -->
-
-						<button class="fscreen-text__button button">Создать сайт</button>
-
-					</div>
-					<!-- /.fistscreen-text -->
-
+				<div class="fscreen-text__subtitle">
+					У вас свадьба и вы хотите создать сайт для этого особого случая?
+				</div>
+				<!-- /.fistscreen-text__subtitle -->
+				<div class="fscreen-text__text">
+					С Forever Together создать сайт это не проблема. Вы можете быстро и бесплатно создать<br> свадебный сайт и делиться впечатлениями с родными и друзьями.
+				</div>
+				<!-- /.fistscreen-text__text -->
+				<button class="fscreen-text__button button">Создать сайт</button>
 			</div>
-			<!-- /.row -->
-		</div>
-		<!-- /.container -->
-	</div>
-	<!-- first-slide -->
-<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
-
-	<div class="first-slide">
-		<div class="container">
-			<div class="row align-items-center justify-content-center">
-					<div class="fscreen-text-slider fscreen-text ">
-						<h1 class="fscreen-text__title">
-							Начните свадьбу со своего сайта
-						</h1>
-						<img src="" alt="line-nheart">
-						<!-- /.fistscreen-text__title -->
-						<div class="fscreen-text__subtitle">
-							У вас свадьба и вы хотите создать сайт для этого особого случая ?
-						</div>
-						<!-- /.fistscreen-text__subtitle -->
-
-						<div class="fscreen-text__text">
-							С Forever Together создать сайт это не проблема.
-						</div>
-						<!-- /.fistscreen-text__text -->
-
-						<button class="fscreen-text__button button">Создать сайт</button>
-
-					</div>
 					<!-- /.fistscreen-text -->
-
-			</div>
-			<!-- /.row -->
 		</div>
-		<!-- /.container -->
+		<!-- /.row -->
 	</div>
-	<!-- first-slide -->
+		<!-- /.container -->
+</div>
+<!-- first-slide -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <div class="first-slide">
-		<div class="container">
-			<div class="row align-items-center justify-content-center">
-					<div class="fscreen-text-slider fscreen-text ">
-						<h1 class="fscreen-text__title">
-							Начните свадьбу со своего сайта
-						</h1>
-						<img src="" alt="line-nheart">
+	<div class="container">
+		<div class="row align-items-center justify-content-center">
+			<div class="fscreen-text-slider fscreen-text ">
+				<h1 class="fscreen-text__title">
+					Начните свадьбу со своего сайта!
+				</h1>
+				<img src="img/01_main/1.head/decor-line.png" alt="line-nheart">
 						<!-- /.fistscreen-text__title -->
-						<div class="fscreen-text__subtitle">
-							У вас свадьба и вы хотите создать сайт для этого особого случая ?
-						</div>
-						<!-- /.fistscreen-text__subtitle -->
-
-						<div class="fscreen-text__text">
-							С Forever Together создать сайт это не проблема.
-						</div>
-						<!-- /.fistscreen-text__text -->
-
-						<button class="fscreen-text__button button">Создать сайт</button>
-
-					</div>
-					<!-- /.fistscreen-text -->
-
+				<div class="fscreen-text__subtitle">
+					У вас свадьба и вы хотите создать сайт для этого особого случая?
+				</div>
+				<!-- /.fistscreen-text__subtitle -->
+				<div class="fscreen-text__text">
+					С Forever Together создать сайт это не проблема. Вы можете быстро и бесплатно создать<br> свадебный сайт и делиться впечатлениями с родными и друзьями.
+				</div>
+				<!-- /.fistscreen-text__text -->
+				<button class="fscreen-text__button button">Создать сайт</button>
 			</div>
-			<!-- /.row -->
+					<!-- /.fistscreen-text -->
 		</div>
-		<!-- /.container -->
+		<!-- /.row -->
 	</div>
-	<!-- first-slide -->
+		<!-- /.container -->
+</div>
+<!-- first-slide -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <div class="first-slide">
-		<div class="container">
-			<div class="row align-items-center justify-content-center">
-					<div class="fscreen-text-slider fscreen-text ">
-						<h1 class="fscreen-text__title">
-							Начните свадьбу со своего сайта
-						</h1>
-						<img src="" alt="line-nheart">
+	<div class="container">
+		<div class="row align-items-center justify-content-center">
+			<div class="fscreen-text-slider fscreen-text ">
+				<h1 class="fscreen-text__title">
+					Начните свадьбу со своего сайта!
+				</h1>
+				<img src="img/01_main/1.head/decor-line.png" alt="line-nheart">
 						<!-- /.fistscreen-text__title -->
-						<div class="fscreen-text__subtitle">
-							У вас свадьба и вы хотите создать сайт для этого особого случая ?
-						</div>
-						<!-- /.fistscreen-text__subtitle -->
-
-						<div class="fscreen-text__text">
-							С Forever Together создать сайт это не проблема.
-						</div>
-						<!-- /.fistscreen-text__text -->
-
-						<button class="fscreen-text__button button">Создать сайт</button>
-
-					</div>
-					<!-- /.fistscreen-text -->
-
+				<div class="fscreen-text__subtitle">
+					У вас свадьба и вы хотите создать сайт для этого особого случая?
+				</div>
+				<!-- /.fistscreen-text__subtitle -->
+				<div class="fscreen-text__text">
+					С Forever Together создать сайт это не проблема. Вы можете быстро и бесплатно создать<br> свадебный сайт и делиться впечатлениями с родными и друзьями.
+				</div>
+				<!-- /.fistscreen-text__text -->
+				<button class="fscreen-text__button button">Создать сайт</button>
 			</div>
-			<!-- /.row -->
+					<!-- /.fistscreen-text -->
 		</div>
-		<!-- /.container -->
+		<!-- /.row -->
 	</div>
+		<!-- /.container -->
+</div>
+<!-- first-slide -->
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<div class="first-slide">
+	<div class="container">
+		<div class="row align-items-center justify-content-center">
+			<div class="fscreen-text-slider fscreen-text ">
+				<h1 class="fscreen-text__title">
+						Начните свадьбу со своего сайта!
+				</h1>
+				<img src="img/01_main/1.head/decor-line.png" alt="line-nheart">
+						<!-- /.fistscreen-text__title -->
+				<div class="fscreen-text__subtitle">
+					У вас свадьба и вы хотите создать сайт для этого особого случая?
+				</div>
+						<!-- /.fistscreen-text__subtitle -->
+				<div class="fscreen-text__text">
+					С Forever Together создать сайт это не проблема. Вы можете быстро и бесплатно создать<br> свадебный сайт и делиться впечатлениями с родными и друзьями.
+				</div>
+						<!-- /.fistscreen-text__text -->
+				<button class="fscreen-text__button button">Создать сайт</button>
+			</div>
+					<!-- /.fistscreen-text -->
+		</div>
+			<!-- /.row -->
+	</div>
+		<!-- /.container -->
+</div>
 	<!-- first-slide -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
 </section>
-<!-- /.fistscreen -->
+<!-- /.fscreen -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
-
-		</div>
+<div class="fscreen-mouse"><a href="index.php#s2video"><img src="img/01_main/1.head/mouse.png" alt="V"></a></div>
+	</div>
 		<!-- /.container -->
-	</header>
+</header>
 	<!-- /.header -->
 
 
