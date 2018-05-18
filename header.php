@@ -1,37 +1,38 @@
 <!-- <div id="info"></div> -->
 
-<header class="header dark-bg dark-bg3 grad" id="1.header">
+<header class="header  dark-bg dark-bg5 grad" id="1.header">
 	<div class="container">
 
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
-
-	<section class="menu-ext menu-ext__head">
+	<div class="menu-ext menu-ext__head">
 		<div class="container">
-			<div class="menu__head">
+
+		<div class="menu__head">
+			
 				<ul class="align-items-center">
 					<li>
-						<a href=""><img src="img/logo-mywedding.png" alt="logo"></a>
+						<a href="#"><div class="header-logo"></div></a>
 					</li>
 
 					<li>
-						<a href="#">Видео</a>
+						<a href="#s02video">Видео</a>
 					</li>
 					<li>
-						<a href="#">Инструменты сайта</a>
+						<a href="#s03tools">Инструменты сайта</a>
 					</li>
 					<li>
-						<a href="#">Примеры сайтов</a>
+						<a href="#s04samples">Примеры сайтов</a>
 					</li>
 					<li>
-						<a href="#">Цены</a>
+						<a href="#s05tarifs">Цены</a>
 					</li>
 					<li>
-						<a href="№">О нас</a>
+						<a href="#s06about">О нас</a>
 					</li>
 					<li>
-						<a href="">Контакты</a>
+						<a href="#s07contacts">Контакты</a>
 					</li>
 					<li>
 						<button class="button">Войти</button>
@@ -40,7 +41,8 @@
 			</div>
 
 		</div>
-	</section>
+	</div>
+	<!-- </section> -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 
 <section class="fscreen fscreen-slider" id="2.first">
@@ -186,9 +188,10 @@
 <!-- /.fscreen -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
-<div class="fscreen-mouse"><a href="index.php#s2video"><img src="img/01_main/1.head/mouse.png" alt="V"></a></div>
 	</div>
 		<!-- /.container -->
+		<div class="fscreen-mouse"><a href="#s02video"><img src="img/01_main/1.head/mouse.png" alt="V"></a></div>
+
 </header>
 	<!-- /.header -->
 

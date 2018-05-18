@@ -59,6 +59,17 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Proxima Nova - SemiBold';
+	src: url('../fonts/ProximaNova-Semibold.eot');
+	src: local('Proxima Nova Semibold'), local('ProximaNova-Semibold'),
+		url('../fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ProximaNova-Semibold.woff') format('woff'),
+		url('../fonts/ProximaNova-Semibold.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
 
 
 @font-face {

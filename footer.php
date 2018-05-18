@@ -1,30 +1,32 @@
 <div class="footer dark-bg dark-bg8">
 
-	<section class="menu-ext__foot ">
+	<div class="menu-ext__foot ">
 		<div class="container">
 			<div class="menu__foot">
 				<ul class="align-items-center">
 					<li>
-						<a href=""><img src="img/logo-mywedding.png" alt="logo"></a>
+						<!-- <a href="#"><img src="img/logo-mywedding.png" alt="logo"></a> -->
+						<a href="#"><div class="footer-logo"></div></a>
+
 					</li>
 
 					<li>
-						<a href="#">Видео</a>
+						<a href="#s02video">Видео</a>
 					</li>
 					<li>
-						<a href="#">Инструменты сайта</a>
+						<a href="#s03tools">Инструменты сайта</a>
 					</li>
 					<li>
-						<a href="#">Примеры сайтов</a>
+						<a href="#s04samples">Примеры сайтов</a>
 					</li>
 					<li>
-						<a href="#">Цены</a>
+						<a href="#s05tarifs">Цены</a>
 					</li>
 					<li>
-						<a href="#">О нас</a>
+						<a href="#s06about">О нас</a>
 					</li>
 					<li>
-						<a href="">Контакты</a>
+						<a href="#s07contacts">Контакты</a>
 					</li>
 					<li>
 						<button class="button">Войти</button>
@@ -33,7 +35,8 @@
 			</div>
 
 		</div>
-	</section>
+		</div>
+	<!-- </section> -->
 
 <div class="footer-text">
 		© 2018 «MY WEDDING» Все права защищены
@@ -42,10 +45,28 @@
 </div>
 
 
+	<div class="tnx-frm">
+		<div class="tnx-popup">
+			<div class="tnx-title">Спасибо за заявку</div>
+			<!-- /.popup-title -->
+			<div class="tnx-close">&times;</div>
+			<!-- /.popup-close -->
+			<div class="tnx-form">
+				<div class="tnx-form-header">
+					Спасибо за заявку !
+				</div>
+				<button type="button" id="tnx-ok" class="button tnx-form__btn button14">ОК</button>
+			</div>
+			<!-- /.popup-form -->
+		</div>
+		<!-- /.popup -->
+	</div>
+
 
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 	<script src="js/jquery.min.js"></script>
 	<script src="slick/slick.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
 
 	<script>
 		$(".fscreen-slider").slick({
@@ -56,10 +77,10 @@
 			// autoplay: true,
   		autoplaySpeed: 4000,
 			dots: true,
-			// dotsClass: 'fscreen-slider__dots',
+			dotsClass: 'fscreen-slider__dots',
+			// appendDots: 'fscreen-slider-dots__app', 
 			vertical: true,
 			verticalSwiping: true
- 			// appendDots: 'fscreen-slider-dots__app', 
 // Change where the navigation dots are attached (Selector, htmlString, Array, Element, jQuery object)
 			// prevArrow: '<div class="slider-arrow slider-arrow__up"></div>',
 			// nextArrow: '<div class="slider-arrow  slider-arrow__down"><img src="img/01_main/1.head/mouse.png" alt="V"></div>'
@@ -113,6 +134,69 @@
         player.stopVideo();
       }
     </script>
+
+	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+	<script>
+		$('form').submit(function (event) {
+			event.preventDefault();
+			// alert("SUBMIT");
+			$.ajax({
+				type: "POST",
+				url: "send.php",
+				data: $(this).serialize()
+			}).done(function () {
+				$(this).find("input").val("");
+
+				$("form").trigger("reset");
+
+				// alert("OMG");
+				yaCounter46492542.reachGoal("Wedding-Form");
+				$(".tnx-frm").show();
+				setTimeout(function(){$(".tnx-frm").hide();}, 3000);
+
+			});
+			return false;
+		});
+	</script>
+	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<!-- Плавная прокрутка к якорю -->
+<script>
+var $page = $('html, body');
+$('a[href*="#"]').click(function(e) {
+    $page.animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 900);
+		e.preventDefault();
+    return false;
+});
+</script>
+
+
+<!-- <script>
+  $(document).ready(function () {
+    $('a[href=#]').on("click", function (e) {
+      var anchor = $(this);
+      $('html, body').stop().animate({
+        scrollTop: $(anchor.attr('href')).offset().top
+      }, 777);
+      e.preventDefault();
+      return false;
+    });
+  });
+</script> -->
+
+	<script>
+		jQuery(function ($) {
+			// $("#phone").mask("+7(999) 999-9999");
+			// $("#phone1").mask("+7(999) 999-9999");
+			// $("#phone2").mask("+7(999) 999-9999");
+			// $("#phone3").mask("+7(999) 999-9999");
+			// $("#phone-mod").mask("+7(999) 999-9999");
+			// $("#phone-o").mask("+7(999) 999-9999");
+			//,{completed:function(){alert("You typed the following: "+this.val());}});
+		});
+	</script>
 
 
 

@@ -21,7 +21,6 @@
 
 <body>
 
-
 <?php include 'header.php';?>
 
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
@@ -32,30 +31,27 @@
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 
-
-<section class="s2video" id="s2video">
+<section class="s02video" id="s02video">
 	<h2 class="section-title">Посмотрите видео о наших возможностях</h2>
 	<!-- <img class="" src="img/01_main/pink-line.svg" alt=""> -->
-<div class="section-subtitle">
-	В этом видео мы подробно расскажем Вам как просто сделать в нашем конструкторе
-	потрясающий сайт для Вашей свадьбы
-</div>
-<div class="row align-items-center justify-content-center">
-	<img src="img/01_main/2.video/birds-left.png" alt="" class="s2video-bird">
+	<div class="section-subtitle">
+		В этом видео мы подробно расскажем Вам как просто сделать в нашем конструкторе
+		потрясающий сайт для Вашей свадьбы
+	</div>
 
-	<div id="player"></div>
+	<div class="row align-items-center justify-content-center">
+		<img src="img/01_main/2.video/birds-left.png" alt="" class="s02video-bird">
+		<div id="player"></div>
 
-	<img src="img/01_main/2.video/birds-right.png" alt="" class="s2video-bird">
-	
-</div>
-
+		<img src="img/01_main/2.video/birds-right.png" alt="" class="s02video-bird">
+	</div>
 
 </section>
 
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 
-
-
-<section class="s03tools">
+<section class="s03tools" id="s03tools">
 <h2 class="section-title">Инструменты сайта</h2>
 <div class="section-subtitle">
 	Посмотрите какими возможностями располагает наш конструктор. С таким набором
@@ -128,144 +124,135 @@
 			</div>
 			</div>
 		<!-- /.col-12 -->
+		</div>
+		<!-- /.row -->
+		<div class="s03tools-text">И многое многое другое...!</div>
+
 	</div>
-	<!-- /.row -->
-<div class="s03tools-text">И многое многое другое...!</div>
-
-</div>
-<!-- /.container -->
-
-
-
+	<!-- /.container -->
 </section>
 <!-- s03tools -->
 
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 
-<section class="s04samples">
+<section class="s04samples" id="s04samples">
 
-<h2 class="section-title">Примеры сайтов</h2>
-<div class="section-subtitle">
-	Ниже Вы увидите примеры сайтов сделанных обычными людьми, без специального
-	образования, на нашем конструкторе
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="col-12 col-sm-6 col-md-4">
-			<img src="img/01_main/4.samples/pic1.jpg" alt="">
-		</div>
-		<div class="col-12 col-sm-6 col-md-4">
-			<img src="img/01_main/4.samples/pic2.jpg" alt="">
-		</div>
-		<div class="col-12 col-sm-6 col-md-4">
-			<img src="img/01_main/4.samples/pic3.jpg" alt="">
-		</div>
-		<div class="col-12 col-sm-6 col-md-4">
-			<img src="img/01_main/4.samples/pic4.jpg" alt="">
-		</div>
-		<div class="col-12 col-sm-6 col-md-4">
-			<img src="img/01_main/4.samples/pic5.jpg" alt="">
-		</div>
-		<div class="col-12 col-sm-6 col-md-4">
-			<img src="img/01_main/4.samples/pic6.jpg" alt="">
-		</div>
+	<h2 class="section-title">Примеры сайтов</h2>
+	<div class="section-subtitle">
+		Ниже Вы увидите примеры сайтов сделанных обычными людьми, без специального
+		образования, на нашем конструкторе
 	</div>
-	<!-- row -->
-</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-sm-6 col-md-4">
+				<img src="img/01_main/4.samples/pic1.jpg" alt="">
+			</div>
+			<div class="col-12 col-sm-6 col-md-4">
+				<img src="img/01_main/4.samples/pic2.jpg" alt="">
+			</div>
+			<div class="col-12 col-sm-6 col-md-4">
+				<img src="img/01_main/4.samples/pic3.jpg" alt="">
+			</div>
+			<div class="col-12 col-sm-6 col-md-4">
+				<img src="img/01_main/4.samples/pic4.jpg" alt="">
+			</div>
+			<div class="col-12 col-sm-6 col-md-4">
+				<img src="img/01_main/4.samples/pic5.jpg" alt="">
+			</div>
+			<div class="col-12 col-sm-6 col-md-4">
+				<img src="img/01_main/4.samples/pic6.jpg" alt="">
+			</div>
+		</div>
+		<!-- row -->
+	</div>
 <!-- container -->
-
-<button class="button s04samples-button">Создать свой сайт</button>
+	<button class="button s04samples-button">Создать свой сайт</button>
 </section>
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
-<section class="s05tarifs">
+<section class="s05tarifs" id="s05tarifs">
 
-<h2 class="section-title">Наши тарифы</h2>
-<div class="section-subtitle">
-	Вы всегда можете выбрать самый оптимальный тарифный план для
-	Вашего свадебного сайта
-</div>
-
-<div class="container">
-	<div class="row">
-
-		<div class="col-12 col-md-4">
-			<div class="s05tarifs-block">
-				<div class="s05tarifs-title s05tarifs-title__basic">Basic</div>
-				<ul>
-					<li>Одностраничный сайт</li>
-					<li>5 тем на выбор</li>
-					<li>Приглашения</li>
-					<li>Список гостей</li>
-					<li>Карта проезда</li>
-					<li>История пары</li>
-					<li>Дресс-код</li>
-					<li>Программа дня</li>
-					<li>50 фотографий в альбоме пары</li>
-				</ul>
-				<div class="s05tarifs-price">
-				1 600 рублей
-				</div>
-				<button class="button s05tarifs-button__basic">Создать сайт за 1600р.</button>
-			</div>
-		</div>
-		<!-- "col-12 col-md-4"> -->
-		<div class="col-12 col-md-4">
-			<div class="s05tarifs-block">
-				<h3 class="s05tarifs-title s05tarifs-title__silver">Silver</h3>
-				<ul>
-					<li>Двухстраничный сайт</li>
-					<li>Полный доступ ко всем темам</li>
-					<li>Элементы Simple</li>
-					<li>Книга пожеланий</li>
-					<li>Виш-лист</li>
-					<li>Письмо гостям</li>
-					<li>Схема рассадки гостей</li>
-					<li>100 фотографий от пары и гостей</li>
-					<li>Видеовиджет</li>
-				</ul>
-				<div class="s05tarifs-price">
-				2 500 рублей
-				</div>
-				<button class="button s05tarifs-button__silver">Создать сайт за 2500р.</button>
-			</div>
-		</div>
-		<!-- "col-12 col-md-4"> -->
-		<div class="col-12 col-md-4">
-			<div class="s05tarifs-block">
-				<h3 class="s05tarifs-title s05tarifs-title__gold">Gold</h3>
-				<ul>
-					<li>Трехстраничный сайт</li>
-					<li>Полный доступ ко всем темам</li>
-					<li>Элементы Medium</li>
-					<li>Блог невесты</li>
-					<li>Фотоальбомы гостей</li>
-					<li>Стоп-лист</li>
-					<li>Карточки гостей</li>
-					<li>150 фотографий от пары и гостей</li>
-					<li>Видеовиджет</li>
-				</ul>
-				<div class="s05tarifs-price">
-				4 000 рублей
-				</div>
-				<button class="button s05tarifs-button__gold">Создать сайт за 4000р.</button>
-			</div>
-		</div>
-		<!-- "col-12 col-md-4"> -->
-
-
+	<h2 class="section-title">Наши тарифы</h2>
+	<div class="section-subtitle">
+		Вы всегда можете выбрать самый оптимальный тарифный план для
+		Вашего свадебного сайта
 	</div>
-	<!-- row -->
-</div>
-<!-- container -->
 
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-md-4">
+				<div class="s05tarifs-block">
+					<div class="s05tarifs-title s05tarifs-title__basic">Basic</div>
+						<ul>
+							<li>Одностраничный сайт</li>
+							<li>5 тем на выбор</li>
+							<li>Приглашения</li>
+							<li>Список гостей</li>
+							<li>Карта проезда</li>
+							<li>История пары</li>
+							<li>Дресс-код</li>
+							<li>Программа дня</li>
+							<li>50 фотографий в альбоме пары</li>
+						</ul>
+					<div class="s05tarifs-price">
+						1 600 рублей
+					</div>
+					<button class="button s05tarifs-button s05tarifs-button__basic">Создать сайт за 1600р.</button>
+				</div>
+			</div>
+			<!-- "col-12 col-md-4"> -->
+			<div class="col-12 col-md-4">
+				<div class="s05tarifs-block">
+					<h3 class="s05tarifs-title s05tarifs-title__silver">Silver</h3>
+						<ul>
+							<li>Двухстраничный сайт</li>
+							<li>Полный доступ ко всем темам</li>
+							<li>Элементы Simple</li>
+							<li>Книга пожеланий</li>
+							<li>Виш-лист</li>
+							<li>Письмо гостям</li>
+							<li>Схема рассадки гостей</li>
+							<li>100 фотографий от пары и гостей</li>
+							<li>Видеовиджет</li>
+						</ul>
+					<div class="s05tarifs-price">
+						2 500 рублей
+					</div>
+					<button class="button s05tarifs-button s05tarifs-button__silver">Создать сайт за 2500р.</button>
+				</div>
+			</div>
+			<!-- "col-12 col-md-4"> -->
+			<div class="col-12 col-md-4">
+				<div class="s05tarifs-block">
+					<h3 class="s05tarifs-title s05tarifs-title__gold">Gold</h3>
+						<ul>
+							<li>Трехстраничный сайт</li>
+							<li>Полный доступ ко всем темам</li>
+							<li>Элементы Medium</li>
+							<li>Блог невесты</li>
+							<li>Фотоальбомы гостей</li>
+							<li>Стоп-лист</li>
+							<li>Карточки гостей</li>
+							<li>150 фотографий от пары и гостей</li>
+							<li>Видеовиджет</li>
+						</ul>
+					<div class="s05tarifs-price">
+						4 000 рублей
+					</div>
+					<button class="button s05tarifs-button s05tarifs-button__gold">Создать сайт за 4000р.</button>
+				</div>
+			</div>
+			<!-- "col-12 col-md-4"> -->
+		</div>
+		<!-- row -->
+	</div>
+	<!-- container -->
 </section>
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 
-<section class="s6about" id="s6about">
+<section class="s06about" id="s06about">
 	<div class="container">
 
 		<h2 class="section-title">О нас</h2>
@@ -279,13 +266,11 @@
 				<img src="img/01_main/6.about/picture.png" alt="">
 			</div>
 			<div class="col-12 col-md-8">
-			<div class="s6about-title">Собирайте сайт из блоков</div>
-			<div class="s6about-text">В библиотеке вы выбираете понравившиеся блоки из более 400 вариантов и собираете из них страницы. По своему вкусу и желанию вы можете компоновать их так, как вам захочется и покажется оптимальным для вашей тематики</div>
-			<div class="s6about-title">Выбирайте из множества вариантов качественного дизайна</div>
-			<div class="s6about-text">Мы предлагаем всевозможные варианты полноэкранных обложек, фотогалерей, кнопок, типографики, фоновых видео, цитат, меню и многих других элементов. От вас лишь требуется хороший вкус, чтобы гармонично соединить содержимое. При этом вы всегда можете изменить с помощью настроек дизайн выбранного блока.</div>
+				<div class="s06about-title">Собирайте сайт из блоков</div>
+				<div class="s06about-text">В библиотеке вы выбираете понравившиеся блоки из более 400 вариантов и собираете из них страницы. По своему вкусу и желанию вы можете компоновать их так, как вам захочется и покажется оптимальным для вашей тематики</div>
+				<div class="s06about-title">Выбирайте из множества вариантов качественного дизайна</div>
+				<div class="s06about-text">Мы предлагаем всевозможные варианты полноэкранных обложек, фотогалерей, кнопок, типографики, фоновых видео, цитат, меню и многих других элементов. От вас лишь требуется хороший вкус, чтобы гармонично соединить содержимое. При этом вы всегда можете изменить с помощью настроек дизайн выбранного блока.</div>
 			</div>
-
-
 		</div>
 		<!-- row -->
 	</div>
@@ -296,11 +281,80 @@
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 
+<section class="s07contacts" id="s07contacts">
+	<div class="container">
+
+		<h2 class="section-title">Контакты</h2>
+	<!-- <img class="" src="img/01_main/pink-line.svg" alt=""> -->
+		<div class="section-subtitle">
+			Если у Вас остались вопросы, Вы всегда можете задать их и мы 
+			с удовольствием ответим Вам
+		</div>
+
+		<form action="">
+		<!-- <div class="row align-items-center justify-content-center"> -->
+			<div class="row  justify-content-center">
+
+				<div class="col-12 col-md-4">
+					<div class="s07contacts-inputs">
+					<input required id="s07contacts-name" class="form__input s07contacts-name" type="text" placeholder="Ваше имя" name="Name">
+					<label for="s07contacts-name">* Как к вам обращаться?</label>
+					<input required id="s07contacts-email" class="form__input s07contacts-email" type="email" placeholder="E-mail" name="Email">
+					<label for="s07contacts-email">* На эту почту мы вышлем ответ</label>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-8">
+					<div class="s07contacts-inputs">
+
+					<textarea required id="s07contacts-message" class="form__input s07contacts-message" placeholder="Сообщение" name="Message" cols="160" rows="4" maxlength="512"></textarea>
+					<label for="s07contacts-email">* Ваш вопрос или предложение</label>
+					</div>
+				</div>
+
+				<button id="btn-contacts" class="button btn-contacts" type="submit">ОТПРАВИТЬ</button>
+
+			</div>
+			<!-- row -->
+		</form>
+	</div>
+	<!-- container -->
+
+</section>
 
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<section class="s08social" id="s08social">
+	<h3 class="s08social-title">Мы в социальных сетях:</h3>
+	<div class="container">
+	<div class="s08social-blocks">
+		<div class="s08social-block s08social-block1">
+			<img class="s08social-block__img" src="img/01_main/7.contacts/soc-icon1.png" alt="">
+			<div class="s08social-block__text">Мы в Facebook</div>
+		</div>
+		<div class="s08social-block s08social-block2">
+			<img class="s08social-block__img" src="img/01_main/7.contacts/soc-icon2.png" alt="">
+			<div class="s08social-block__text">Подписаться</div>
+		</div>
+		<div class="s08social-block s08social-block3">
+			<img class="s08social-block__img" src="img/01_main/7.contacts/soc-icon3.png" alt="">
+			<div class="s08social-block__text">Вступить в ОК</div>
+		</div>
+		<div class="s08social-block s08social-block4">
+			<img class="s08social-block__img" src="img/01_main/7.contacts/soc-icon4.png" alt="">
+			<div class="s08social-block__text">Подпишитесь</div>
+		</div>
+		<div class="s08social-block s08social-block5">
+			<img class="s08social-block__img" src="img/01_main/7.contacts/soc-icon5.png" alt="">
+			<div class="s08social-block__text">Подписаться</div>
+		</div>
 
+	</div>
+	<!-- s08social-blocks -->
+	</div>
+	<!-- container -->
 
+</section>
 
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
