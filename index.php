@@ -39,26 +39,38 @@
 		потрясающий сайт для Вашей свадьбы
 	</div>
 
-	<div class="row align-items-center justify-content-center">
-		<img src="img/01_main/2.video/birds-left.png" alt="" class="s02video-bird">
-		<div id="player"></div>
+	<div class="container">
+		<!-- <div class="row align-items-center justify-content-center"> -->
+<div class="s02video-row">
+			<!-- <div class="col-0 col-md-2"> -->
+				<img src="img/01_main/2.video/birds-left.png" alt="" class="s02video-bird">
+			<!-- </div> -->
+			
+			<!-- <div class="col-12 col-md-8"> -->
+				<div id="player" class="s02video-player"></div>
+			<!-- </div> -->
+			<!-- col-12 col-md-8 -->
 
-		<img src="img/01_main/2.video/birds-right.png" alt="" class="s02video-bird">
+			<!-- <div class="col-0 col-md-2"> -->
+				<img src="img/01_main/2.video/birds-right.png" alt="" class="s02video-bird">
+			<!-- </div> -->
+		</div>
+		<!-- row -->
 	</div>
-
+	<!-- .container -->
 </section>
 
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 
 <section class="s03tools" id="s03tools">
-<h2 class="section-title">Инструменты сайта</h2>
-<div class="section-subtitle">
-	Посмотрите какими возможностями располагает наш конструктор. С таким набором
-	Вы легко создадите сайт своей мечты
-</div>
+	<h2 class="section-title">Инструменты сайта</h2>
+	<div class="section-subtitle">
+		Посмотрите какими возможностями располагает наш конструктор. С таким набором
+		Вы легко создадите сайт своей мечты
+	</div>
 
-<div class="container">
+	<div class="container">
 	<div class="row">
 		<div class="col-12 col-sm-6 col-md-4 col-lg-3 align-items-start justify-content-center">
 			<div class="s03tools-block">
@@ -295,7 +307,7 @@
 		<!-- <div class="row align-items-center justify-content-center"> -->
 			<div class="row  justify-content-center">
 
-				<div class="col-12 col-md-4">
+				<div class="col-12 col-md-5 col-lg-4">
 					<div class="s07contacts-inputs">
 					<input required id="s07contacts-name" class="form__input s07contacts-name" type="text" placeholder="Ваше имя" name="Name">
 					<label for="s07contacts-name">* Как к вам обращаться?</label>
@@ -304,7 +316,7 @@
 					</div>
 				</div>
 
-				<div class="col-12 col-md-8">
+				<div class="col-12 col-md-7 col-lg-8">
 					<div class="s07contacts-inputs">
 
 					<textarea required id="s07contacts-message" class="form__input s07contacts-message" placeholder="Сообщение" name="Message" cols="160" rows="4" maxlength="512"></textarea>

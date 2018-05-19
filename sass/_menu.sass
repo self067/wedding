@@ -67,7 +67,11 @@
 
 .menu
 	&__head
-		// font-family: Roboto, sans-serif
+		// margin-left: 15px
+		// margin-right: 15px
+		display: flex
+		justify-content: space-between
+		flex-direction: row
 		padding-top: 17px
 		padding-bottom: 17px
 		margin-bottom: 22px
@@ -75,9 +79,13 @@
 		font-size: 15px;
 		font-weight: 600;
 		line-height: 24px;
-
-
+		// &-button
+		// 	&-block
+		// 		display: inline-block
 	&__foot
+		display: flex
+		justify-content: space-between
+		flex-direction: row
 
 		font-family: "Proxima Nova - Semibold"
 		font-size: 15px
@@ -86,13 +94,10 @@
 	
 	&-left
 		float: left
-		// display: inline-block
 		padding-top: 10px
 		width: 150px
 		height: 100%
 		background-color: $menu-left-bgcolor
-		// background-color: yellow
-		// border: 1px red solid
 		ul
 			list-style: none
 			padding-left: 0
@@ -131,6 +136,8 @@
 				display: flex
 				flex-direction: row
 				justify-content: space-between
+				flex-basis: 80%
+				align-items: center
 				list-style: none
 				li
 					padding-bottom: 0
@@ -148,11 +155,13 @@
 			// margin-bottom: 20px
 			ul 
 				// margin-bottom: 50px
-				padding-bottom: 0
-				padding-left: 0
 				display: flex
 				flex-direction: row
 				justify-content: space-between
+				flex-basis: 80%
+				align-items: center
+				padding-bottom: 0
+				padding-left: 0
 				list-style: none
 				li
 					padding-bottom: 0

@@ -200,6 +200,12 @@ section {
   height: 100%;
 }
 
+.player {
+  background: url("../img/01_main/2.video/video.jpg");
+  background-size: cover;
+  z-index: 555;
+}
+
 .tooltip {
   font-size: 20px;
   color: red;
@@ -268,6 +274,16 @@ section {
 }
 
 .menu__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   padding-top: 17px;
   padding-bottom: 17px;
   margin-bottom: 22px;
@@ -278,6 +294,16 @@ section {
 }
 
 .menu__foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   font-family: "Proxima Nova - Semibold";
   font-size: 15px;
   font-weight: 600;
@@ -344,6 +370,11 @@ section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   list-style: none;
 }
 
@@ -366,8 +397,6 @@ section {
 }
 
 .menu-ext__foot ul {
-  padding-bottom: 0;
-  padding-left: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -378,6 +407,13 @@ section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 0;
+  padding-left: 0;
   list-style: none;
 }
 
@@ -486,6 +522,7 @@ section {
 }
 
 .fscreen {
+  position: relative;
   margin-top: 100px;
   padding-bottom: 30px;
   text-align: center;
@@ -543,7 +580,6 @@ section {
 
 .first-slide {
   outline: none;
-  min-height: 100px;
   margin-bottom: 80px;
 }
 
@@ -565,6 +601,45 @@ section {
   margin-top: 50px;
   padding: 20px;
   background-color: #faf8f9;
+}
+
+.s02video-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.s02video-bird {
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
+}
+
+.s02video-player {
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+  width: 100%;
+  background-image: url("http://begi-motik.ru/wedding/img/01_main/2.video/video-wa.jpg");
+}
+
+.ytp-cued-thumbnail-overlay-image {
+  background-image: url("http://begi-motik.ru/wedding/img/01_main/2.video/video-wa.jpg");
+}
+
+.ytp-cued-thumbnail-overlay {
+  background-image: url("http://begi-motik.ru/wedding/img/01_main/2.video/video-wa.jpg");
+}
+
+#player {
+  width: 500px;
+  height: 200px;
+  background-image: url("http://begi-motik.ru/wedding/img/01_main/2.video/video-wa.jpg");
 }
 
 .s03tools {
@@ -714,7 +789,7 @@ section {
 
 .s07contacts textarea {
   resize: none;
-  width: 700px;
+  width: 100%;
 }
 
 .s07contacts input {
@@ -871,4 +946,218 @@ section {
   font-size: 15px;
   font-weight: 500;
   line-height: 22px;
+}
+
+@media (max-width: 1200px) {
+  .s07contacts textarea {
+    width: 100%;
+  }
+  .s02video-bird {
+    width: 20%;
+    height: 20%;
+  }
+}
+
+@media (max-width: 991px) {
+  .header-logo {
+    background: transparent url("../img/logo.png") center no-repeat;
+    width: 50px;
+  }
+  .footer-logo {
+    background: transparent url("../img/logo.png") center no-repeat;
+    width: 50px;
+  }
+  .fscreen-text__title {
+    font-size: 28px;
+  }
+  .s02video-bird {
+    width: 20%;
+    height: 20%;
+  }
+  .s02video-player {
+    width: 60%;
+    height: 60%;
+  }
+  .menu__head-button {
+    padding: 2px 15px;
+  }
+  .button {
+    font-size: 14px;
+    padding: 0 35px;
+  }
+  .s05tarifs ul {
+    height: 265px;
+    margin-bottom: 20px;
+  }
+  .s05tarifs-price {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .s08social-title {
+    margin-bottom: 30px;
+    font-size: 18px;
+  }
+  .s08social-block {
+    height: 60px;
+    width: 60px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0px 40px;
+    border-radius: 50%;
+  }
+  .s08social-block__img {
+    padding: 7px 0px;
+    border-right: 0px;
+  }
+  .s08social-block__text {
+    display: none;
+    margin: 0;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  section {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  .section-title::after {
+    margin-top: 15px;
+  }
+  .section-subtitle {
+    margin-bottom: 20px;
+    max-width: 80%;
+    font-size: 16px;
+  }
+  .header-logo {
+    background: transparent;
+    width: 1px;
+  }
+  .footer-logo {
+    background: transparent;
+    width: 1px;
+  }
+  .menu__head {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-bottom: 22px;
+    font-size: 12px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .menu__head-button {
+    display: none;
+  }
+  .menu__foot {
+    font-size: 12px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .menu__foot-button {
+    display: none;
+  }
+  .menu-ext__head {
+    height: 50px;
+    top: 0;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  .fscreen {
+    margin-top: 30px;
+  }
+  .fscreen-text__text {
+    margin-bottom: 30px;
+  }
+  .fscreen-mouse {
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+  }
+  .first-slide {
+    margin-bottom: 50px;
+  }
+  .s05tarifs ul {
+    margin-bottom: 10px;
+    height: 220px;
+  }
+  .s05tarifs-title {
+    margin-bottom: 45px;
+    font-size: 20px;
+  }
+  .s05tarifs-button {
+    margin-bottom: 30px;
+  }
+  .s08social-block {
+    height: 50px;
+    width: 50px;
+    margin: 0px 25px;
+  }
+  .s08social-blocks {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .section-title::after {
+    margin-top: 10px;
+  }
+  .section-subtitle {
+    margin-bottom: 15px;
+    max-width: 70%;
+    font-size: 14px;
+  }
+  .first-slide {
+    margin-bottom: 30px;
+  }
+  .s08social-block {
+    -ms-flex-preferred-size: 10%;
+        flex-basis: 10%;
+    margin: 0px 10px;
+  }
+  .button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .s08social-block {
+    -ms-flex-preferred-size: 10%;
+        flex-basis: 10%;
+    margin: 0px 5px;
+    max-height: 35px;
+    max-width: 35px;
+  }
+  .button {
+    font-size: 12px;
+  }
+  .menu__head {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+  .menu__foot {
+    font-size: 10px;
+  }
+  .menu-ext {
+    padding-bottom: 10px;
+  }
 }

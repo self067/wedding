@@ -3,6 +3,7 @@
 	<div class="menu-ext__foot ">
 		<div class="container">
 			<div class="menu__foot">
+
 				<ul class="align-items-center">
 					<li>
 						<!-- <a href="#"><img src="img/logo-mywedding.png" alt="logo"></a> -->
@@ -28,10 +29,15 @@
 					<li>
 						<a href="#s07contacts">Контакты</a>
 					</li>
-					<li>
-						<button class="button">Войти</button>
-					</li>
+					<!-- <li> -->
+						<!-- <button class="button menu__foot-button">Войти</button> -->
+					<!-- </li> -->
 				</ul>
+
+				<div>
+						<button class="button menu__foot-button">Войти</button>
+				</div>
+
 			</div>
 
 		</div>
@@ -62,7 +68,8 @@
 		<!-- /.popup -->
 	</div>
 
-
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 	<script src="js/jquery.min.js"></script>
 	<script src="slick/slick.min.js"></script>
@@ -80,13 +87,25 @@
 			dotsClass: 'fscreen-slider__dots',
 			// appendDots: 'fscreen-slider-dots__app', 
 			vertical: true,
-			verticalSwiping: true
+			verticalSwiping: true,
+			responsive: [
+				{
+					breakpoint: 992,
+					settings: {
+						dots: false
+						
+					}
+				}
+			]
+
 // Change where the navigation dots are attached (Selector, htmlString, Array, Element, jQuery object)
 			// prevArrow: '<div class="slider-arrow slider-arrow__up"></div>',
 			// nextArrow: '<div class="slider-arrow  slider-arrow__down"><img src="img/01_main/1.head/mouse.png" alt="V"></div>'
 		});
 	</script>
 
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 
 
   <script>
@@ -95,29 +114,45 @@
 
     tag.src = "https://www.youtube.com/iframe_api";
     var firstScriptTag = document.getElementsByTagName('script')[0];
-    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+		firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+		// document.getElementById('player').style.backgroundImage = 'url("../img/01_main/2.video/video.jpg")';
 
-      // 3. This function creates an <iframe> (and YouTube player)
-      //    after the API code downloads.
-      var player;
+			var player;
+			var pl;
       function onYouTubeIframeAPIReady() {
         player = new YT.Player('player', {
-          height: '400',
-          width: '652',
-          videoId: 'q_th_D4VHC0',
-					// playerVars: { 'rel': 0, 'autoplay': 1, 'controls': 0 , 'showinfo': 0, 'frameborder': 0},
+          // height: '400',
+          // width: '652',
+					videoId: 'q_th_D4VHC0',
+					origin: 'begi-motik.ru',
+					thumbnail: 'http://begi-motik.ru/wedding/img/01_main/2.video/video.jpg',
+					modestbranding: '1',
 					playerVars: { 'rel': 0, 'autoplay': 0, 'controls': 0 , 'showinfo': 0, 'frameborder': 0},
-					// allow: "autoplay; encrypted-media",
           events: {
             'onReady': onPlayerReady,
             'onStateChange': onPlayerStateChange
           }
-        });
+				});
+				pl =	document.getElementById('player');
+				// console.log(pl);
+				// console.log(pl.style.backgroundImage);
+				document.getElementById('player').style.backgroundImage = 'url("http://begi-motik.ru/wedding/img/01_main/2.video/video.jpg")';
+				pl.style.backgroundImage = 'url("http://begi-motik.ru/wedding/img/01_main/2.video/video.jpg")';
+				// console.log(pl.style.backgroundImage);
+				//  = 'url("img/01_main/2.video/video.jpg")';
       }
 
       // 4. The API will call this function when the video player is ready.
       function onPlayerReady(event) {
-        // event.target.playVideo();
+				// event.target.playVideo();
+				// console.log("youtube says onPlayerReady");
+				// pl.style.backgroundImage = 'url("img/01_main/2.video/video.jpg")';
+				// console.log(pl.style.backgroundImage);
+				// document.getElementById('player').style.backgroundImage = 'url("img/01_main/2.video/video.jpg")';
+				// console.log(document.getElementById('player').style.backgroundImage);
+				document.getElementById('player').style.backgroundImage = 'url("http://begi-motik.ru/wedding/img/01_main/2.video/video.jpg")';
+				pl.style.backgroundImage = 'url("http://begi-motik.ru/wedding/img/01_main/2.video/video.jpg")';
+
       }
 
       // 5. The API calls this function when the player's state changes.
@@ -128,10 +163,25 @@
         if (event.data == YT.PlayerState.PLAYING && !done) {
           setTimeout(stopVideo, 122000);
           done = true;
-        }
+				}
+				else 	{
+					// console.log("youtube says else");
+					document.getElementById('player').style.backgroundImage = 'url("http://begi-motik.ru/wedding/img/01_main/2.video/video.jpg")';
+				pl.style.backgroundImage = 'url("http://begi-motik.ru/wedding/img/01_main/2.video/video.jpg")';
+
+				// document.getElementById('player').style.backgroundImage = 'url("img/01_main/2.video/video.jpg")';
+						}
+
+				if (event.data == YT.PlayerState.ENDED ) { 
+					document.getElementById('player').style.backgroundImage = 'url("http://begi-motik.ru/wedding/img/01_main/2.video/video.jpg")';
+				pl.style.backgroundImage = 'url("http://begi-motik.ru/wedding/img/01_main/2.video/video.jpg")';
+					// console.log("youtube says ENDED");
+					 }
+
+
       }
       function stopVideo() {
-        player.stopVideo();
+				player.stopVideo();
       }
     </script>
 
