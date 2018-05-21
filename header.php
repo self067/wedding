@@ -38,8 +38,7 @@
 					</ul>
 
 				<div class="menu__head-button-block">
-					<button class="button menu__head-button">Войти</button>
-
+					<button class="button menu__head-button btn-enter modal-call">Войти</button>
 				</div>
 
 
@@ -71,7 +70,7 @@
 					С Forever Together создать сайт это не проблема. Вы можете быстро и бесплатно создать свадебный сайт и делиться впечатлениями с родными и друзьями.
 				</div>
 				<!-- /.fistscreen-text__text -->
-				<button class="fscreen-text__button button">Создать сайт</button>
+				<button class="fscreen-text__button button btn-run-builder">Создать сайт</button>
 			</div>
 					<!-- /.fistscreen-text -->
 		</div>
@@ -99,7 +98,10 @@
 					С Forever Together создать сайт это не проблема. Вы можете быстро и бесплатно создать свадебный сайт и делиться впечатлениями с родными и друзьями.
 				</div>
 				<!-- /.fistscreen-text__text -->
-				<button class="fscreen-text__button button">Создать сайт</button>
+				<form action="p04builder.php#p04builder">
+					<button class="fscreen-text__button button btn-run-builder">Создать сайт</button>
+				</form>
+
 			</div>
 					<!-- /.fistscreen-text -->
 		</div>
@@ -126,7 +128,7 @@
 					С Forever Together создать сайт это не проблема. Вы можете быстро и бесплатно создать свадебный сайт и делиться впечатлениями с родными и друзьями.
 				</div>
 				<!-- /.fistscreen-text__text -->
-				<button class="fscreen-text__button button">Создать сайт</button>
+				<button class="fscreen-text__button button btn-run-builder">Создать сайт</button>
 			</div>
 					<!-- /.fistscreen-text -->
 		</div>
@@ -153,7 +155,7 @@
 					С Forever Together создать сайт это не проблема. Вы можете быстро и бесплатно создать свадебный сайт и делиться впечатлениями с родными и друзьями.
 				</div>
 				<!-- /.fistscreen-text__text -->
-				<button class="fscreen-text__button button">Создать сайт</button>
+				<button class="fscreen-text__button button btn-run-builder">Создать сайт</button>
 			</div>
 					<!-- /.fistscreen-text -->
 		</div>
@@ -180,7 +182,7 @@
 					С Forever Together создать сайт это не проблема. Вы можете быстро и бесплатно создать свадебный сайт и делиться впечатлениями с родными и друзьями.
 				</div>
 						<!-- /.fistscreen-text__text -->
-				<button class="fscreen-text__button button">Создать сайт</button>
+				<button class="fscreen-text__button button btn-run-builder">Создать сайт</button>
 			</div>
 					<!-- /.fistscreen-text -->
 		</div>
@@ -207,37 +209,4 @@
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@	 -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@	 -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@	 -->
-	<!-- Yandex.Metrika counter -->
-	<script>
-		(function (d, w, c) {
-			(w[c] = w[c] || []).push(function () {
-				try {
-					w.yaCounter46492542 = new Ya.Metrika2({
-						id: 46492542,
-						clickmap: true,
-						trackLinks: true,
-						accurateTrackBounce: true,
-						webvisor: true,
-						trackHash: true
-					});
-				} catch (e) { }
-			});
 
-			var n = d.getElementsByTagName("script")[0],
-				s = d.createElement("script"),
-				f = function () { n.parentNode.insertBefore(s, n); };
-			s.type = "text/javascript";
-			s.async = true;
-			s.src = "https://mc.yandex.ru/metrika/tag.js";
-
-			if (w.opera == "[object Opera]") {
-				d.addEventListener("DOMContentLoaded", f, false);
-			} else { f(); }
-		})(document, window, "yandex_metrika_callbacks2");
-	</script>
-	<noscript>
-		<div>
-			<img src="https://mc.yandex.ru/watch/46492542" style="position:absolute; left:-9999px;" alt="" />
-		</div>
-	</noscript>
-	<!-- /Yandex.Metrika counter -->

@@ -12,9 +12,9 @@
 	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4)
 	
 
-.arrow
-	color: red 
-	background-color: yellow
+// .arrow
+	// color: red 
+	// background-color: yellow
 	// border-right: 1px solid #FFf
 	// border-left: 5px solid #FFf
 	// border-top: 5px solid red
@@ -22,14 +22,14 @@
 	
 .tooltip.right	.tooltip.left .tooltip-arrow 
 	display: none
-	color: red !important
-	background-color: yellow !important
-	border-top: 5px solid red
-	border-right: 5px solid #FF0000 !important
-	border-left: 5px solid #FF0000 
-	border-top-color: red
-	border-right-color: red
-	border-left-color: red
+	// color: red !important
+	// background-color: yellow !important
+	// border-top: 5px solid red
+	// border-right: 5px solid #FF0000 !important
+	// border-left: 5px solid #FF0000 
+	// border-top-color: red
+	// border-right-color: red
+	// border-left-color: red
 
 
 .btn-block
@@ -61,9 +61,9 @@
 .menu-el
 	text-align: center
 	margin: 0 auto
-//	display: block
+	//	display: block
 	// flex-direction: column			
-	&__text
+	// &__text
 
 .menu
 	&__head
@@ -172,107 +172,84 @@
 							cursor: pointer
 							color: $active-color
 
-	&-build
-		background-color: $bg-dark
-
-		&__head
-			background-color: $bg-dark
-			padding-bottom: 20px
-			// margin-bottom: 20px
-			ul 
-				// margin-bottom: 50px
-				padding-bottom: 0
-				padding-left: 0
-				display: flex
-				flex-direction: row
-				justify-content: space-between
-				list-style: none
-				li
-					padding-bottom: 0
-					a
-						color: $text-color-light
-						text-decoration: none
-						&:hover
-							cursor: pointer
-							color: $active-color
 		
 
 	// &-link
-		z-index: 500
-		display: none
-		width: 50px
-		height: 50px
-		background-color: transparent
-		border-radius: 50%
-		// box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4)
-		position: fixed
-		top: 20px
-		left: 10px
-		span, span:before, span:after
-			display: block
-			height: 2px
-			width: 18px
-			position: absolute
-			left: 50%
-			margin-left: -9px
-			top: 50%
-			margin-top: -1px
-			background-color: #333
-		span:before
-			transition: all 0.2s
-			content: ""
-			margin-top: -6px
-		span:after
-			transition: all 0.2s
-			content: ""
-			margin-top: 4px
+	// 	z-index: 500
+	// 	display: none
+	// 	width: 50px
+	// 	height: 50px
+	// 	background-color: transparent
+	// 	border-radius: 50%
+	// 	// box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4)
+	// 	position: fixed
+	// 	top: 20px
+	// 	left: 10px
+	// 	span, span:before, span:after
+	// 		display: block
+	// 		height: 2px
+	// 		width: 18px
+	// 		position: absolute
+	// 		left: 50%
+	// 		margin-left: -9px
+	// 		top: 50%
+	// 		margin-top: -1px
+	// 		background-color: #333
+	// 	span:before
+	// 		transition: all 0.2s
+	// 		content: ""
+	// 		margin-top: -6px
+	// 	span:after
+	// 		transition: all 0.2s
+	// 		content: ""
+	// 		margin-top: 4px
 
-		&_active span
-			background-color: transparent
-			&:before
-				transform: rotate(135deg)
-				margin-top: 0
-			&:after
-				transform: rotate(-135deg)
-				margin-top: 0
+	// 	&_active span
+	// 		background-color: transparent
+	// 		&:before
+	// 			transform: rotate(135deg)
+	// 			margin-top: 0
+	// 		&:after
+	// 			transform: rotate(-135deg)
+	// 			margin-top: 0
 			
 
 	// &-mobil
-		z-index: 490
-		background-color: $menu-bg-color
-		position: fixed
-		width: 100vw
-		height: 100vh
+	// 	z-index: 490
+	// 	background-color: $menu-bg-color
+	// 	position: fixed
+	// 	width: 100vw
+	// 	height: 100vh
 
-		text-transform: uppercase
-		font-family: Roboto, sans-serif
-		font-size: 12px
-		font-weight: 400
-		line-height: 22px
-		display: flex
-		justify-content: center
-		align-items: center
+	// 	text-transform: uppercase
+	// 	font-family: Roboto, sans-serif
+	// 	font-size: 12px
+	// 	font-weight: 400
+	// 	line-height: 22px
+	// 	display: flex
+	// 	justify-content: center
+	// 	align-items: center
 
-		transition: all 0.5s
-		left: -100vw
-		ul
-			list-style: none
-			padding: 0
-			text-align: center
-			li
-				width: 100vw
-			a 
-				display: block
-				width: 100%
-				color: #ffffff
-				line-height: 2
-				font-weight: 100
-				letter-spacing: 4px
-				transition: all 0.2s
-				&:hover
-					background-color: rgba(255,255,255,0.6)
-					color: $menu-bg-color
-					text-decoration: none
+	// 	transition: all 0.5s
+	// 	left: -100vw
+	// 	ul
+	// 		list-style: none
+	// 		padding: 0
+	// 		text-align: center
+	// 		li
+	// 			width: 100vw
+	// 		a 
+	// 			display: block
+	// 			width: 100%
+	// 			color: #ffffff
+	// 			line-height: 2
+	// 			font-weight: 100
+	// 			letter-spacing: 4px
+	// 			transition: all 0.2s
+	// 			&:hover
+	// 				background-color: rgba(255,255,255,0.6)
+	// 				color: $menu-bg-color
+	// 				text-decoration: none
 
-		&_active
-			left: 0
+		// &_active
+		// 	left: 0

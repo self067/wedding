@@ -21,6 +21,7 @@
 
 <body>
 
+
 <?php include 'header.php';?>
 
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
@@ -41,7 +42,7 @@
 
 	<div class="container">
 		<!-- <div class="row align-items-center justify-content-center"> -->
-<div class="s02video-row">
+		<div class="s02video-row">
 			<!-- <div class="col-0 col-md-2"> -->
 				<img src="img/01_main/2.video/birds-left.png" alt="" class="s02video-bird">
 			<!-- </div> -->
@@ -179,7 +180,10 @@
 		<!-- row -->
 	</div>
 <!-- container -->
-	<button class="button s04samples-button">Создать свой сайт</button>
+	<form action="p04builder.php">
+		<button class="button s04samples-button  btn-run-builder">Создать свой сайт</button>
+	</form>
+
 </section>
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
@@ -303,7 +307,7 @@
 			с удовольствием ответим Вам
 		</div>
 
-		<form action="">
+		<form id="s07contacts-form" action="">
 		<!-- <div class="row align-items-center justify-content-center"> -->
 			<div class="row  justify-content-center">
 
@@ -370,6 +374,9 @@
 
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+<?php include "p02auth.php"; ?>
+
 <?php include "footer.php"; ?>
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->

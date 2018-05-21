@@ -71,6 +71,10 @@ section {
   background: url("../img/01_main/pink-line.svg") center no-repeat;
 }
 
+.section-title__build {
+  color: #484848;
+}
+
 .section-subtitle {
   margin: auto;
   margin-bottom: 30px;
@@ -87,11 +91,10 @@ section {
   font-family: "Helvetica Neue Cyr";
   font-size: 16px;
   font-weight: 700;
-  line-height: 50.4px;
   background-color: #fa7995;
   border: 1px solid transparent;
   color: #ffffff;
-  padding: 0px 35px;
+  padding: 5px 35px;
   border-radius: 25px;
 }
 
@@ -218,21 +221,8 @@ section {
           box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
 }
 
-.arrow {
-  color: red;
-  background-color: yellow;
-}
-
 .tooltip.right .tooltip.left .tooltip-arrow {
   display: none;
-  color: red !important;
-  background-color: yellow !important;
-  border-top: 5px solid red;
-  border-right: 5px solid #FF0000 !important;
-  border-left: 5px solid #FF0000;
-  border-top-color: red;
-  border-right-color: red;
-  border-left-color: red;
 }
 
 .btn-block {
@@ -431,45 +421,6 @@ section {
   color: #fa7995;
 }
 
-.menu-build {
-  background-color: #333333;
-}
-
-.menu-build__head {
-  background-color: #333333;
-  padding-bottom: 20px;
-}
-
-.menu-build__head ul {
-  padding-bottom: 0;
-  padding-left: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  list-style: none;
-}
-
-.menu-build__head ul li {
-  padding-bottom: 0;
-}
-
-.menu-build__head ul li a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.menu-build__head ul li a:hover {
-  cursor: pointer;
-  color: #fa7995;
-}
-
 .header {
   background: url("../img/01_main/1.head/bg-grad.jpg") center no-repeat;
   height: 100%;
@@ -583,26 +534,6 @@ section {
   margin-bottom: 80px;
 }
 
-.builder04 {
-  padding-top: 150px;
-  text-align: center;
-}
-
-.builder04-page {
-  margin-bottom: 150px;
-}
-
-.video-youtube {
-  margin: auto;
-  text-align: center;
-}
-
-.videoWidget-form {
-  margin-top: 50px;
-  padding: 20px;
-  background-color: #faf8f9;
-}
-
 .s02video-row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -637,8 +568,8 @@ section {
 }
 
 #player {
-  width: 500px;
-  height: 200px;
+  max-width: 500px;
+  height: auto;
   background-image: url("http://begi-motik.ru/wedding/img/01_main/2.video/video-wa.jpg");
 }
 
@@ -948,6 +879,293 @@ section {
   line-height: 22px;
 }
 
+.menu-build__head {
+  padding-top: 36px;
+  padding-bottom: 39px;
+  text-align: center;
+  background: #333333 url("../img/bg-menu__top.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.menu-build__top ul {
+  padding-bottom: 0;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+.menu-build__top ul li {
+  padding-bottom: 0;
+}
+
+.menu-build__top ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu-build__top ul li a:hover {
+  cursor: pointer;
+  color: #fa7995;
+}
+
+.menu-build-button {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.menu-build-button-pink {
+  color: #fa7995;
+  border: 1px solid #fa7995;
+}
+
+.menu-build__foot {
+  text-align: center;
+}
+
+.menu-build__bottom ul {
+  padding-bottom: 0;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+.menu-build__bottom ul li {
+  padding-bottom: 0;
+}
+
+.menu-build__bottom ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu-build__bottom ul li a:hover {
+  cursor: pointer;
+  color: #fa7995;
+}
+
+.builder-footer {
+  background: #333333 url("../img/bg-menu__bottom.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.footer-text {
+  text-align: center;
+}
+
+.p02auth {
+  background: pink url("../img/02_auth/bg.jpg") center no-repeat;
+  position: fixed;
+  display: none;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 199999;
+}
+
+.p02auth-title {
+  color: #333333;
+  font-family: "Amsdam cyr-lat";
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.p02auth-inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.p02auth-img {
+  width: 318px;
+  height: 430px;
+  background: pink url("../img/02_auth/picture.jpg") center no-repeat;
+}
+
+.p02auth-form {
+  padding-left: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.p02auth-name {
+  background: url("../img/02_auth/pic1.png") no-repeat scroll 5px 2px;
+  padding-left: 30px;
+}
+
+.p02auth-phone {
+  background: url("../img/02_auth/pic2.png") no-repeat scroll 5px 5px;
+  padding-left: 30px;
+}
+
+.p02auth-email {
+  background: url("../img/02_auth/pic3.png") no-repeat scroll 5px 2px;
+  padding-left: 30px;
+}
+
+.p02auth__input {
+  color: #606060;
+  font-family: "Proxima Nova";
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.p02auth-forget {
+  text-align: center;
+}
+
+.p02auth-forget__link {
+  text-decoration: none;
+  opacity: 0.5;
+  color: #333333;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.p02auth-btn {
+  font-family: "Proxima Nova - Semibold";
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.p02auth-btn-o {
+  border: 1px solid #333333;
+  background-color: #faf9f9;
+  color: #333333;
+  font-family: "Proxima Nova - Semibold";
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.ppp {
+  position: fixed;
+  left: 50%;
+  top: 100px;
+  width: 750px;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #fff;
+  z-index: 9999;
+}
+
+.ppp-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.ppp-close {
+  position: absolute;
+  font-size: 35px;
+  color: #fff;
+  right: -20px;
+  top: -37px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.p04builder img {
+  margin-bottom: 14px;
+}
+
+.p04builder-img {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.p04builder-btn {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.p05invitation-img {
+  background: pink url("../img/05_Invitation/flowers-card.jpg") center no-repeat;
+  background-size: cover;
+  height: 500px;
+  max-width: 850px;
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
+  position: relative;
+  text-align: center;
+}
+
+.p05invitation-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.p05invitation-birds {
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
+}
+
+.p05invitation-card {
+  position: absolute;
+  text-align: center;
+  top: 35%;
+  left: 0;
+  width: 100%;
+}
+
+.videoWidget-form {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #faf8f9;
+}
+
 @media (max-width: 1200px) {
   .s07contacts textarea {
     width: 100%;
@@ -1109,6 +1327,26 @@ section {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .p02auth-title {
+    text-align: center;
+  }
+  .p02auth-img {
+    width: 40%;
+  }
+  .p02auth-form {
+    padding-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .p02auth-btn {
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ppp {
+    width: 80%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -1134,6 +1372,22 @@ section {
   }
   .button {
     font-size: 14px;
+  }
+  .p02auth {
+    text-align: center;
+  }
+  .p02auth-img {
+    display: none;
+  }
+  .p02auth-form {
+    text-align: center;
+    height: 400px;
+  }
+  .p02auth-btn {
+    display: block;
+  }
+  .p02auth-buttons {
+    text-align: center;
   }
 }
 

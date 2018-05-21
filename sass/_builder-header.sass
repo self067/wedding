@@ -1,0 +1,37 @@
+.menu
+	&-build
+		&__head
+			padding-top: 36px
+			padding-bottom: 39px
+			text-align: center
+			background: $bg-dark url("../img/bg-menu__top.jpg") center no-repeat
+			background-size: cover
+		&__top
+			ul 
+				// margin-bottom: 50px
+				padding-bottom: 0
+				padding-left: 0
+				display: flex
+				flex-direction: row
+				justify-content: space-between
+				list-style: none
+				li
+					padding-bottom: 0
+					a
+						color: $text-color-light
+						text-decoration: none
+						&:hover
+							cursor: pointer
+							color: $active-color
+
+		&-button
+			background-color: transparent
+			color: #ffffff
+			border: 1px solid #ffffff
+			&-pink
+				color: $active-color
+				border: 1px solid $active-color
+
+
+
+	
