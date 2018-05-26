@@ -25,13 +25,13 @@
 <?php include 'builder-header.php';?>
 
 
-	<section class="p05invitation" id="p04invitation">
+	<section class="p05invitation  section-builder " id="p05invitation">
 		<h2 class="section-title section-title__build">Приходите на нашу свадьбу</h2>
 		<div class="section-subtitle ">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sodales nisl a scelerisque cursus. Nam sit amet eros felis. Quisque rutrum aliquet lobortis. Suspendisse eros nisl, lobortis ut quam et, mattis semper elit. Proin eleifend odio aliquam, cursus odio ornare, placerat turpis.
+			Сбылась наша мечта — мы вместе. Нас соединила любовь. А 23 сентября 2018 года соединят и узы брака. Мы хотим поделится своим счастьем с вами. Будем рады видеть вас в 10:00 в ЗАГСе на Московском пр-кте, 8. Наше торжество станет самым лучшим праздником, если на нем будете присутствовать вы.
 		</div>
 		<div class="section-subtitle ">
-		Nunc eget laoreet velit. In eget laoreet felis. Sed iaculis mi arcu, eu cursus arcu lacinia sed. Donec consectetur, quam a suscipit accumsan, quam elit lacinia turpis, id semper elit nunc eget dolor.
+			Судьба преподнесла нам прекрасный подарок, и по этому поводу мы хотим устроить грандиозное торжество, где будут присутствовать самые близкие и дорогие нам люди!
 		</div>
 
 		<div class="container">
@@ -42,15 +42,16 @@
 				<div class="p05invitation-img">
 			
 					<div class="p05invitation-card">
-						<div>Приглашаем Вас на торжество по случаю нашего бракосочетания</div>
-						<img src="img/pink-heart_line.png" alt="">
-						<div>Андрей и Марина</div>
-						<div>23 сентября в 13:00</div>
-						<div>г. Москва, ул. Комсомольская, 37. Ресторан “Прага”</div>
+						<div class="p05invitation-card__title">Приглашаем Вас на торжество по случаю нашего бракосочетания</div>
+						<img src="img/pink-heart_line.png" alt="-----">
+						<div class="p05invitation-card__names">Андрей и Марина</div>
+						<div class="p05invitation-card__date">23 сентября в 13:00</div>
+						<div class="p05invitation-card__address">г. Москва, ул. Комсомольская, 37. Ресторан “Прага”</div>
 					</div>
 				</div>
 			
 				<img src="img/05_Invitation/birds-right.png" alt="" class="s05invitation-birds">
+			
 
 			</div>
 			<!-- <div class="row"> -->
@@ -69,22 +70,22 @@
 				</form> -->
 
 
-		<!-- <div class="btn-blocks">
+		<div class="btn-blocks">
 
-			<div class="btn-block">
+			<div class="btn-block btn-block1">
 				Редактировать
 			</div>
-			<div class="btn-block">
-				<img src="img/arrowDown.png" alt="">
+			<div class="btn-block btn-block2">
+				<img src="img/05_Invitation/arrow-down.png" alt="">
 			</div>
-			<div class="btn-block">
-				<img src="img/arrowDown.png" alt="">
+			<div class="btn-block btn-block3">
+				<img src="img/05_Invitation/arrow-up.png" alt="">
 			</div>
-			<div class="btn-block">
-				<img src="img/arrowDown.png" alt="">
+			<div class="btn-block btn-block4">
+				<img src="img/05_Invitation/busket.png" alt="">
 			</div>
 
-		</div> -->
+		</div>
 
 <?php include 'builder-footer.php';?>
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->

@@ -48,7 +48,13 @@
 			<!-- </div> -->
 			
 			<!-- <div class="col-12 col-md-8"> -->
-				<div id="player" class="s02video-player"></div>
+				<!-- <div id="player" class="s02video-player"></div> -->
+				<video id="video" poster="img/01_main/2.video/video-wa-dark.jpg" src="img/wedding.mp4" width="652" height="400">
+					</video>
+				
+            <!-- <div class="poster">      <img src="My%20Weddind_files/video.jpg" alt="">            </div> -->
+
+
 			<!-- </div> -->
 			<!-- col-12 col-md-8 -->
 
@@ -72,69 +78,86 @@
 	</div>
 
 	<div class="container">
-	<div class="row">
-		<div class="col-12 col-sm-6 col-md-4 col-lg-3 align-items-start justify-content-center">
+	<div class="row align-items-start">
+		<div class="col-12 col-sm-6 col-lg-3 align-items-start justify-content-center">
+			<a href="p05invitation.php">
 			<div class="s03tools-block">
 			<img src="img/01_main/3.tools/pic1.png" alt="1">
 			<div class="s03tools-block__title">Приглашение</div>
 			<div class="s03tools-block__text">Создайте и отправьте по почте онлайн-приглашения на свою свадьбу</div>
 			</div>
+			</a>
+
 		</div>
 		<!-- /.col-12 -->
-		<div class="col-12 col-sm-6 col-md-4 col-lg-3">
-		<div class="s03tools-block">
-			<img src="img/01_main/3.tools/pic2.png" alt="1">
-			<div class="s03tools-block__title">Список гостей</div>
-			<div class="s03tools-block__text">Создайте список и Ваши гости зараннее будут видеть всех приглашенных</div>
+		<div class="col-12 col-sm-6 col-lg-3">
+			<a href="p06guestList.php">
+			<div class="s03tools-block">
+				<img src="img/01_main/3.tools/pic2.png" alt="1">
+				<div class="s03tools-block__title">Список гостей</div>
+				<div class="s03tools-block__text">Создайте список и Ваши гости зараннее будут видеть всех приглашенных</div>
 			</div>
+			</a>
 		</div>
 		<!-- /.col-12 -->
-		<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div class="col-12 col-sm-6 col-lg-3">
+		<a href="p07locationMap.php">
 		<div class="s03tools-block">
 			<img src="img/01_main/3.tools/pic3.png" alt="1">
 			<div class="s03tools-block__title">Карта проезда</div>
 			<div class="s03tools-block__text">Создайте карту, чтобы указать место проведения свадьбы, и отправьте ее гостям</div>
 			</div>
+			</a>
 		</div>
 		<!-- /.col-12 -->
-		<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div class="col-12 col-sm-6 col-lg-3">
+		<a href="p04builder.php">
 		<div class="s03tools-block">
 			<img src="img/01_main/3.tools/pic4.png" alt="1">
 			<div class="s03tools-block__title">Изменение дизайна</div>
 			<div class="s03tools-block__text">Выбирайте из множества шаблонов или создайте свой собственный дизайн</div>
 			</div>
+			</a>
 		</div>
 		<!-- /.col-12 -->
-		<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div class="col-12 col-sm-6 col-lg-3">
+		<a href="p19youtubeVideo.php">
 		<div class="s03tools-block">
 			<img src="img/01_main/3.tools/pic5.png" alt="1">
 			<div class="s03tools-block__title">Видеовиджет</div>
 			<div class="s03tools-block__text">Добавьте любое Ваше видео в HD качестве  на свой свадебный сайт одним кликом</div>
 			</div>
+			</a>
 		</div>
 		<!-- /.col-12 -->
-		<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div class="col-12 col-sm-6 col-lg-3">
+		<a href="p09photoAlbum.php">
 		<div class="s03tools-block">
 			<img src="img/01_main/3.tools/pic6.png" alt="1">
 			<div class="s03tools-block__title">Фотоальбомы</div>
 			<div class="s03tools-block__text">Вы можете создать несколько фотоальбомов Love Story и The Wedding Day</div>
 			</div>
+			</a>
 		</div>
 		<!-- /.col-12 -->
-		<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+		<div class="col-12 col-sm-6 col-lg-3">
+		<a href="p12bookWishes.php">
 		<div class="s03tools-block">
 			<img src="img/01_main/3.tools/pic7.png" alt="1">
 			<div class="s03tools-block__title">Книга пожеланий</div>
 			<div class="s03tools-block__text">Легко указать какие подарки Вы хотите, чтобы Вам не надарили 100 наборов посуды</div>
 			</div>
+			</a>
 		</div>
 		<!-- /.col-12 -->
-		<div class="col-12 col-sm-6 col-md-4 col-lg-3">
-		<div class="s03tools-block">
-			<img src="img/01_main/3.tools/pic8.png" alt="1">
-			<div class="s03tools-block__title">Письмо гостям</div>
-			<div class="s03tools-block__text">В письме Вы можете рассказать свои друзьям о своих чувствах и эмоциях</div>
-			</div>
+		<div class="col-12 col-sm-6 col-lg-3">
+			<a href="p14letterGuests.php">
+				<div class="s03tools-block">
+				<img src="img/01_main/3.tools/pic8.png" alt="1">
+				<div class="s03tools-block__title">Письмо гостям</div>
+				<div class="s03tools-block__text">В письме Вы можете рассказать свои друзьям о своих чувствах и эмоциях</div>
+				</div>
+			</a>
 			</div>
 		<!-- /.col-12 -->
 		</div>
@@ -156,35 +179,38 @@
 		Ниже Вы увидите примеры сайтов сделанных обычными людьми, без специального
 		образования, на нашем конструкторе
 	</div>
+
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-sm-6 col-md-4">
-				<img src="img/01_main/4.samples/pic1.jpg" alt="">
+				<img class="magnify" src="img/01_main/4.samples/pic1.jpg" alt="">
 			</div>
 			<div class="col-12 col-sm-6 col-md-4">
-				<img src="img/01_main/4.samples/pic2.jpg" alt="">
+				<img class="magnify" src="img/01_main/4.samples/pic2.jpg" alt="">
 			</div>
 			<div class="col-12 col-sm-6 col-md-4">
-				<img src="img/01_main/4.samples/pic3.jpg" alt="">
+				<img class="magnify" src="img/01_main/4.samples/pic3.jpg" alt="">
 			</div>
 			<div class="col-12 col-sm-6 col-md-4">
-				<img src="img/01_main/4.samples/pic4.jpg" alt="">
+				<img class="magnify" src="img/01_main/4.samples/pic4.jpg" alt="">
 			</div>
 			<div class="col-12 col-sm-6 col-md-4">
-				<img src="img/01_main/4.samples/pic5.jpg" alt="">
+				<img class="magnify" src="img/01_main/4.samples/pic5.jpg" alt="">
 			</div>
 			<div class="col-12 col-sm-6 col-md-4">
-				<img src="img/01_main/4.samples/pic6.jpg" alt="">
+				<img class="magnify" src="img/01_main/4.samples/pic6.jpg" alt="">
 			</div>
 		</div>
 		<!-- row -->
 	</div>
 <!-- container -->
 	<form action="p04builder.php">
-		<button class="button s04samples-button  btn-run-builder">Создать свой сайт</button>
+		<button class="button s04samples-button btn-run-builder">Создать свой сайт</button>
 	</form>
 
+
 </section>
+
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <section class="s05tarifs" id="s05tarifs">
@@ -241,7 +267,8 @@
 			<!-- "col-12 col-md-4"> -->
 			<div class="col-12 col-md-4">
 				<div class="s05tarifs-block">
-					<h3 class="s05tarifs-title s05tarifs-title__gold">Gold</h3>
+					<div class="s05tarifs-title s05tarifs-title__gold">Gold</div>
+					<img src="img/01_main/5.tarifs/flag-t.png" alt="" class="s05tarifs-title__gold-flag">
 						<ul>
 							<li>Трехстраничный сайт</li>
 							<li>Полный доступ ко всем темам</li>
@@ -343,7 +370,7 @@
 <section class="s08social" id="s08social">
 	<h3 class="s08social-title">Мы в социальных сетях:</h3>
 	<div class="container">
-	<div class="s08social-blocks">
+	<div class="s08social-blocks  hide-mobile">
 		<div class="s08social-block s08social-block1">
 			<img class="s08social-block__img" src="img/01_main/7.contacts/soc-icon1.png" alt="">
 			<div class="s08social-block__text">Мы в Facebook</div>
@@ -364,9 +391,39 @@
 			<img class="s08social-block__img" src="img/01_main/7.contacts/soc-icon5.png" alt="">
 			<div class="s08social-block__text">Подписаться</div>
 		</div>
+	</div>
+	<!-- s08social-blocks -->
+
+
+
+	<div class="s08social-blocks s08social-blocks__mobile ">
+		<div class="s08social-block__mobile s08social-block1__mobile">
+			<img class="s08msocial-block__img__mobile" src="img/01_main/7.contacts/soc-mob1.png" alt="">
+		</div>
+		<div class="s08social-block__mobile s08social-block2__mobile">
+			<img class="s08msocial-block__img__mobile" src="img/01_main/7.contacts/soc-mob2.png" alt="">
+		</div>
+		<div class="s08social-block__mobile s08social-block3__mobile">
+			<img class="s08social-block__img__mobile" src="img/01_main/7.contacts/soc-mob3.png" alt="">
+		</div>
+		<div class="s08social-block__mobile s08social-block4__mobile">
+			<img class="s08social-block__img__mobile" src="img/01_main/7.contacts/soc-mob4.png" alt="">
+		</div>
+		<div class="s08social-block__mobile s08social-block5__mobile">
+			<img class="s08social-block__img__mobile" src="img/01_main/7.contacts/soc-mob5.png" alt="">
+		</div>
 
 	</div>
 	<!-- s08social-blocks -->
+
+
+
+
+
+
+
+
+
 	</div>
 	<!-- container -->
 

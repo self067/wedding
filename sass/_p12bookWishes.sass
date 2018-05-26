@@ -1,0 +1,183 @@
+.p12bookWishes
+	text-align: center
+	&-img
+		background: pink url("../img/05_Invitation/flowers-card.jpg") center no-repeat
+		background-size: cover
+		height: 500px		
+		// max-width: 850px
+		// flex-basis: 70%
+		// border-radius: -25px	
+		position: relative
+		text-align: center
+	
+	&-fline
+		display: flex
+		flex-direction: row
+		justify-content: center
+
+	&-pinkline
+		flex-basis: 20%
+		background-color: #fa7a95
+		color: #fa7a95
+		height: 1px
+
+	&-gratu
+		margin-bottom: 35px
+		color: #fa7995
+		font-family: "Museo Cyrl 100"
+		font-size: 21px
+		font-weight: bold
+
+	&-card
+		padding-top: 80px
+		vertical-align: middle
+		// position: absolute
+		text-align: center
+		margin: auto
+		top: 0
+		left: 0
+		max-width: 600px
+
+		&__title
+			margin-bottom: 25px
+			color: #222222
+			font-family: "Museo Cyrl 100"
+			font-size: 24px
+			// font-weight: bold
+			line-height: 30px
+		&__text
+			color: #484848
+			font-family: "Proxima Nova"
+			font-size: 16px
+			font-weight: 300
+			line-height: 24px
+
+
+	&-blockNew
+		margin-top: 40px
+		display: flex
+		flex-direction: row
+		justify-content: space-between
+		align-items: center
+
+	&-inputs
+		padding-top: 20px
+		padding-bottom: 20px
+		padding-left: 20px
+		padding-right: 20px
+		display: flex
+		flex-direction: column
+		flex-basis: 47%
+		background-color: #faf9f9
+
+		&__title
+			margin-bottom: 20px
+			color: #333333
+			font-family: "Proxima Nova Rg"
+			font-size: 21px
+			font-weight: bold
+			// line-height: 30px
+	
+		&__from
+			height: 50px;
+			padding-left: 15px
+			border: 1px #ededed solid
+			margin-bottom: 10px
+			&:placeholder
+				color: #606060
+				font-family: "Proxima Nova"
+				font-size: 15px
+				font-weight: 300
+				// line-height: 24px
+		&__head
+			height: 50px;
+			padding-left: 15px
+			border: 1px #ededed solid
+			margin-bottom: 10px
+			&:placeholder
+				color: #606060
+				font-family: "Proxima Nova"
+				font-size: 15px
+				font-weight: 300
+				// line-height: 24px
+		&__text
+			height: 50px;
+			padding-left: 15px
+			border: 1px #ededed solid
+			margin-bottom: 10px
+			&:placeholder
+				color: #606060
+				font-family: "Proxima Nova"
+				font-size: 15px
+				font-weight: 300
+				// line-height: 24px
+					
+		&__button
+			margin: auto
+			color: #ffffff
+			font-family: "Proxima Nova - Semibold"
+			font-size: 15px
+			font-weight: 400
+			line-height: 23.4px
+			text-transform: uppercase
+
+	&-circleButton
+		padding-top: 10px
+		border-radius: 50%
+		border-color: #efeeee
+		background-color: transparent
+		width: 50px
+		height: 50px
+		box-shadow: 1px 1px 10px #efeeee
+		color: #333333
+		font-family: "Proxima Nova"
+		font-size: 14px
+		font-weight: bold
+		line-height: 30px
+		text-transform: uppercase		
+
+	&-slider
+		outline: none
+		&-arrow
+			// 	position: absolute
+			// 	top: 0
+			// 	width: 22px
+			// 	height: 100%
+			// 	z-index: 99
+			// 	&:hover
+			// 		cursor: pointer
+			&_left
+				left: 0
+				background: #fff url(../img/arrow-left.png) center no-repeat
+				&:hover
+					background: $active-color url(../img/arrow-left_active.png) center no-repeat
+			&_right
+				right: 0 
+				background: #fff url(../img/arrow-right.png) center no-repeat
+				&:hover
+					background: $active-color url(../img/arrow-right_active.png) center no-repeat
+
+		&__dots
+			// position: absolute
+			// top: 125px
+			// right: 0px
+			// display: inline-block
+			z-index: 200
+			.slick-active
+				color: #f4c6d2
+
+			li 
+				// 		width: 0
+						// height: 15px
+						color: #ad8883
+				// 		list-style-type: disc
+				
+				button
+					display: none
+
+
+
+
+.slick-slide
+	outline: none	
+	

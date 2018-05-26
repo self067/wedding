@@ -4,11 +4,10 @@
 		background-size: cover
 		height: 500px		
 		max-width: 850px
-		flex-basis: 70%
+		flex-basis: 75%
 		// border-radius: -25px	
 		position: relative
 		text-align: center
-
 
 	&-row
 		display: flex
@@ -23,13 +22,43 @@
 		flex-basis: 10%
 
 	&-card
+		vertical-align: middle
 		position: absolute
 		text-align: center
 		// margin: auto
-		top: 35%
+		top: 25%
 		left: 0
 		width: 100%
 		// border-radius: -15px red solid
 		// background-color: #fff
-		
-		// color: white	
+
+		&__title
+			// margin-bottom: 20px
+			margin: auto
+			margin-bottom: 10px
+			max-width: 440px
+			color: #222222;
+			font-family: "Museo Cyrl 100";
+			font-size: 22px;
+			font-weight: bold;
+		&__names
+			margin-top: 15px
+			margin-bottom: 25px
+			color: #fa7995;
+			font-family: "Museo Cyrl 100";
+			font-size: 56px;
+			font-weight: bold;
+			line-height: 30px;
+		&__date
+			margin-bottom: 25px
+			color: #222222;
+			font-family: "Museo Cyrl 100";
+			font-size: 34px;
+			font-weight: bold;
+			line-height: 30px;
+		&__address
+			color: #222222;
+			font-family: "Museo Cyrl 100";
+			font-size: 21px;
+			font-weight: bold;
+			line-height: 30px;

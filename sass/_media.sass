@@ -13,6 +13,14 @@
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 @media (max-width: 991px)  
+	
+	.hide-mobile
+		display: none
+	.show-mobile
+		display: block
+
+		
+
 	.header
 		&-logo
 			background: transparent url("../img/logo.png") center no-repeat
@@ -40,7 +48,7 @@
 
 	.button
 		font-size: 14px	
-		padding: 0 35px	
+		padding: 0 25px	
 
 	.s05tarifs
 		ul
@@ -77,6 +85,14 @@
 			// padding: 5px 
 			border-radius: 50%
 
+			
+			&s__mobile
+				display: flex
+				flex-direction: row
+	
+				display: flex
+
+
 			&__img
 				padding: 7px 0px
 				border-right: 0px
@@ -86,6 +102,12 @@
 				margin: 0
 				font-size: 14px
 
+	.menu-ext
+		display: none
+		height: 0
+	.menu-link
+		display: block
+		left: 0px		
 
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -100,8 +122,10 @@
 	.section
 		&-title
 			// margin-bottom: 35px
-			font-size: 24px
+			font-size: 20px
 			margin-bottom: 25px
+			margin-left: 20px
+			margin-right: 20px
 	
 			&::after
 				margin-top: 15px
@@ -128,14 +152,15 @@
 			margin-bottom: 22px
 			font-size: 12px;
 			flex-direction: column
-			&-button
-				display: none
+			// &-button
+				// display: none
 
-		&__foot
-			font-size: 12px
-			flex-direction: column
-			&-button
-				display: none
+		// &__foot
+			// display: none
+			// font-size: 12px
+			// flex-direction: column
+			// &-button
+				// display: none
 
 
 		&-ext
@@ -174,11 +199,11 @@
 
 	.s08social
 		&-block
-			&s
-				justify-content: center
+			// &s
+				// justify-content: center
 			height: 50px
 			width: 50px
-			margin: 0px 25px
+			// margin: 0px 25px
 
 	.p02auth
 		&-title
@@ -198,7 +223,27 @@
 			margin-right: auto
 	.ppp
 		width: 80%
+
+	.s05tarifs-modal
+
+		&-title
+			text-align: center
+		&-img
+			// display: none
+			width: 40%
 		&-form
+			padding-left: 0
+			margin-left: auto
+			margin-right: auto
+		// &-btn
+		// 	display: block
+		// 	margin-bottom: 20px
+		// 	margin-left: auto
+		// 	margin-right: auto
+	.s05ppp
+		width: 80%
+
+
 
 
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -227,9 +272,16 @@
 	
 	.s08social
 		&-block
+			&__mobile
+				height: 40px
+				width: 40px
+			// &s
+				// justify-content: center
 
-			flex-basis: 10%	
-			margin: 0px 10px
+			// flex-basis: 10%	
+			// margin: 0px 10px
+
+
 	.button
 		font-size: 14px
 
@@ -248,8 +300,36 @@
 		&-buttons
 			text-align: center
 
+	.s05tarifs-modal
+		text-align: center
+		&-img
+			display: none
+			// width: 40%
+		&-form
+			text-align: center
+			height: 400px
+			input
+				text-align: center
+		// &-btn
+			// display: block
 
+		// &-buttons
+			// text-align: center
 
+	.fscreen
+		&-text
+			&__subtitle
+				margin-left: auto
+				margin-right: auto
+				max-width: 70%
+
+	.s03tools
+		&-block
+			&__text
+				max-width: 70%
+				margin-right: auto
+				margin-left: auto
+				
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -271,10 +351,10 @@
 			padding-top: 7px
 			padding-bottom: 7px
 			margin-bottom: 10px
-			font-size: 10px;
+			font-size: 14px;
 
 		&__foot
-			font-size: 10px
+			font-size: 14px
 
 		&-ext	
 			&__foot

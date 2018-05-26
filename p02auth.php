@@ -37,3 +37,41 @@
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+	<div class="s05tarifs-modal dark-bg dark-bg5 grad" id="s05tarifs-modal">
+		<div class="s05ppp">
+			<div class="s05ppp-close">&times;</div>
+
+			<div class="s05ppp-form">
+
+				<div class="s05tarifs-modal-img"></div>
+
+				<form class="s05tarifs-modal-form" action="#">
+					<div class="s05tarifs-modal-title">Выберите тариф</div>
+					<input required id="s05tarifs-modal-name" class="s05tarifs-modal__input s05tarifs-modal-name" type="text" placeholder="Ваше имя" name="Name">
+					<input required id="s05tarifs-modal-phone" class="s05tarifs-modal__input s05tarifs-modal-phone" type="tel" placeholder="Номер телефона" name="Phone">
+
+					<div class="s05tarifs-modal__input-rb"><input name="tarif" type="radio" value="Basic" checked><p>Basic</p></div>
+					<div class="s05tarifs-modal__input-rb"><input name="tarif" type="radio" value="Silver"><p>Silver</p></div>
+					<div class="s05tarifs-modal__input-rb"><input name="tarif" type="radio" value="Gold"><p>Gold</p></div>
+
+					<div class="s05tarifs-modal-buttons">
+						<button id="s05tarifs-modal-btn-reg" class="button s05tarifs-modal-btn" type="submit">ЗАКАЗАТЬ САЙТ</button>
+					</div>
+
+				</form>
+
+
+			</div>
+			<!-- /.popup-form -->
+		</div>
+		<!-- /.popup -->
+	</div>
+	<!-- /.overlay -->
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->

@@ -1,13 +1,13 @@
 section
-	padding-top: 70px
-	padding-bottom: 70px
+	padding-top: 60px
+	padding-bottom: 60px
 
 .section
 	text-align: center
 	&-title
 		// font-family: "Roboto Bold", sans-serif
 		// margin-top: 90px
-		margin-bottom: 35px
+		margin-bottom: 20px
 
 		color: $text-section-color
 		font-family: "Amsdam cyr-lat"
@@ -29,21 +29,25 @@ section
 
 	&-subtitle
 		margin: auto
-		margin-bottom: 30px
-		max-width: 60%
+		margin-bottom: 40px
+		max-width: 50%
 		color: $text-section-color
-		font-family: "Proxima Nova Lt"
+		font-family: 'Proxima Nova'
 		font-size: 18px
 		font-weight: 300
-		line-height: 27px
 		text-align: center
+		&-builder
+			max-width: 430px
+
 
 
 .button
-	font-family: "Helvetica Neue Cyr"
-	font-size: 16px
-	font-weight: 700
-	// line-height: 50.4px
+	min-height: 50px
+
+	font-family: "Proxima Nova Semibold"
+	font-size: 15px
+	font-weight: 400
+
 	background-color: $active-color
 	border: 1px solid transparent
 	color: $text-color-light
@@ -65,30 +69,14 @@ section
 			background-color: lighten($active-color, 5)
 			border: 1px solid transparent
 			cursor: pointer
+	&-hel
+		color: #ffffff
+		font-family: "Helvetica Neue Cyr"
+		font-size: 16px
+		font-weight: 700
+	&-small
+		min-height: 40px
 
-.slider-arrow1
-	position: absolute
-	top: 0
-	width: 22px
-	height: 100%
-	z-index: 99
-	&_prod
-		border: 1px solid $active-color
-	// &_fb	
-	// 	width: 42px
-	&:hover
-		cursor: pointer
-	&_left
-		left: 0
-		background: #fff url(../img/arrow-left.png) center no-repeat
-		&:hover
-			background: $active-color url(../img/arrow-left_active.png) center no-repeat
-	&_right
-		right: 0 
-		background: #fff url(../img/arrow-right.png) center no-repeat
-		&:hover
-			background: $active-color url(../img/arrow-right_active.png) center no-repeat
-	
 
 //  Затемнение фона 
 .dark-bg	

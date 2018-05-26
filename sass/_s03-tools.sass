@@ -3,27 +3,35 @@
 	text-align: center
 	// margin: auto
 	&-block
+		border: 1px solid transparent
+
 		margin-bottom: 60px
 		&__title	
 			// text-align: center
 			color: #484848
-			font-family: "Proxima Nova"
-			line-height: 20.99px
+			font-family: "Proxima Nova Rg"
+			// line-height: 20.99px
 			font-size: 18px
-			// font-family: "Proxima Nova Rg"
 			font-weight: 700
 		&__text
 			color: #333333
 			font-size: 16px
-			font-family: "Proxima Nova"
+			font-family: "Proxima Nova Light"
 			font-weight: 300
+		&:hover
+			cursor: pointer
+			border: 1px solid $active-color
 
 	&-text
 		color: #333333
 		font-family: "Proxima Nova - Semibold"
 		font-size: 21px
-		font-weight: 400
-		line-height: 20.99px
+		font-weight: 600
 
 	img
 		margin-bottom: 15px	
+		min-height: 70px
+
+	a
+		&:hover
+			text-decoration: none

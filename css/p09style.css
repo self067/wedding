@@ -1,0 +1,27 @@
+.album-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 44px; }
+
+.album-form {
+  width: 100%; }
+
+.album-block {
+  position: relative; }
+  .album-block a {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    z-index: 2; }
+    .album-block a:hover {
+      cursor: -webkit-zoom-in;
+      cursor: zoom-in; }
+  .album-blocks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }

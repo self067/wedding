@@ -25,7 +25,7 @@
 <?php include 'builder-header.php';?>
 
 
-	<section class="p04builder" id="p04builder">
+	<section class="p04builder section-builder" id="p04builder">
 		<h2 class="section-title">Выберите фон</h2>
 		<div class="section-subtitle">
 			Мы подготовили для Вас несколько вариантов фона, Выберите любой
@@ -36,61 +36,61 @@
 
 				<div class="col-12 col-md-6 col-lg-4">
 					<div class="p04builder-img p04builder-img01">
-						<img src="img/04_site-builder/backgrounds/bg01.jpg" alt="">
+						<img class="magnify" src="img/04_site-builder/backgrounds/bg01.jpg" alt="">
 						<button class="button p04builder-btn">Выбрать</button>
 					</div>
 				</div>
 				<div class="col-12 col-md-6 col-lg-4">
 					<div class="p04builder-img p04builder-img02">
-						<img src="img/04_site-builder/backgrounds/bg02.jpg" alt="">
+						<img  class="magnify" src="img/04_site-builder/backgrounds/bg02.jpg" alt="">
 						<button class="button p04builder-btn">Выбрать</button>
 					</div>
 				</div>
 				<div class="col-12 col-md-6 col-lg-4">
 					<div class="p04builder-img p04builder-img03">
-						<img src="img/04_site-builder/backgrounds/bg03.jpg" alt="">
+						<img  class="magnify" src="img/04_site-builder/backgrounds/bg03.jpg" alt="">
 						<button class="button p04builder-btn">Выбрать</button>
 					</div>
 				</div>
 				<div class="col-12 col-md-6 col-lg-4">
 					<div class="p04builder-img p04builder-img04">
-						<img src="img/04_site-builder/backgrounds/bg04.jpg" alt="">
+						<img  class="magnify" src="img/04_site-builder/backgrounds/bg04.jpg" alt="">
 						<button class="button p04builder-btn">Выбрать</button>
 					</div>
 				</div>
 				<div class="col-12 col-md-6 col-lg-4">
 					<div class="p04builder-img p04builder-img05">
-						<img src="img/04_site-builder/backgrounds/bg05.jpg" alt="">
+						<img  class="magnify" src="img/04_site-builder/backgrounds/bg05.jpg" alt="">
 						<button class="button p04builder-btn">Выбрать</button>
 					</div>
 				</div>
 				<div class="col-12 col-md-6 col-lg-4">
 					<div class="p04builder-img p04builder-img06">
-						<img src="img/04_site-builder/backgrounds/bg06.jpg" alt="">
+						<img  class="magnify" src="img/04_site-builder/backgrounds/bg06.jpg" alt="">
 						<button class="button p04builder-btn">Выбрать</button>
 					</div>
 				</div>
 				<div class="col-12 col-md-6 col-lg-4">
 					<div class="p04builder-img p04builder-img07">
-						<img src="img/04_site-builder/backgrounds/bg07.jpg" alt="">
+						<img  class="magnify" src="img/04_site-builder/backgrounds/bg07.jpg" alt="">
 						<button class="button p04builder-btn">Выбрать</button>
 					</div>
 				</div>
 				<div class="col-12 col-md-6 col-lg-4">
 					<div class="p04builder-img p04builder-img08">
-						<img src="img/04_site-builder/backgrounds/bg08.jpg" alt="">
+						<img  class="magnify" src="img/04_site-builder/backgrounds/bg08.jpg" alt="">
 						<button class="button p04builder-btn">Выбрать</button>
 					</div>
 				</div>
 				<div class="col-12 col-md-6 col-lg-4">
 					<div class="p04builder-img p04builder-img09">
-						<img src="img/04_site-builder/backgrounds/bg09.jpg" alt="">
+						<img  class="magnify" src="img/04_site-builder/backgrounds/bg09.jpg" alt="">
 						<button class="button p04builder-btn">Выбрать</button>
 					</div>
 				</div>
 				<div class="col-12 col-md-6 col-lg-4">
 					<div class="p04builder-img p04builder-img10">
-						<img src="img/04_site-builder/backgrounds/bg10.jpg" alt="">
+						<img  class="magnify" src="img/04_site-builder/backgrounds/bg10.jpg" alt="">
 						<button class="button p04builder-btn">Выбрать</button>
 					</div>
 				</div>

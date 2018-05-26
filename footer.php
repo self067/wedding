@@ -11,13 +11,13 @@
 
 					</li>
 
-					<li>
+					<li class="hide-mobile">
 						<a href="#s02video">Видео</a>
 					</li>
-					<li>
+					<li class="hide-mobile">
 						<a href="#s03tools">Инструменты сайта</a>
 					</li>
-					<li>
+					<li class="hide-mobile">
 						<a href="#s04samples">Примеры сайтов</a>
 					</li>
 					<li>
@@ -35,7 +35,7 @@
 				</ul>
 
 				<div>
-						<button class="button menu__foot-button btn-enter modal-call">Войти</button>
+						<button class="button  menu__foot-button button-small btn-enter modal-call  hide-mobile">Войти</button>
 				</div>
 
 			</div>
@@ -75,6 +75,7 @@
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 
 	<script>
+	jQuery(function($){
 		$(document).ready(function () {
 			$(".tnx-close").on("click", function () {
 				$(".tnx-frm").hide();
@@ -88,10 +89,22 @@
 			});
 
 		});
+	});
 	</script>
 
 
-
+<script>
+jQuery(function($){
+var video;
+$(document).ready(function(){
+ video = document.getElementById("video");
+ $('#video').on('click', function(){
+   video.play();
+   video.setAttribute('controls','');
+ });
+});
+});
+</script>
 
 
 </body>

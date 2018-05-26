@@ -1,0 +1,89 @@
+.s05tarifs-modal
+	background: pink url("../img/02_auth/bg.jpg") center no-repeat
+	position: fixed
+	display: none
+	top: 0
+	width: 100%
+	height: 100%
+	z-index: 199999
+	// background-color: rgba(0, 0, 0, 0.4 )
+
+		
+	&-title
+		color: #333333
+		font-family: "Amsdam cyr-lat"
+		font-size: 24px
+		font-weight: bold
+		line-height: 30px
+	
+	&-inputs
+		display: flex
+		flex-direction: column
+	
+	&-img
+
+		width: 318px
+		height: 430px
+		background: pink url("../img/02_auth/picture.jpg") center no-repeat
+
+	&-form
+		color: #ffffff
+		padding-left: 30px
+		padding-top: 30px
+		padding-bottom: 40px
+		display: flex
+		flex-direction: column
+		justify-content: space-around
+		// align-items: stretch
+
+	&-name
+		background: #fff url("../img/02_auth/pic1.png") no-repeat scroll 7px 10px
+	&-phone
+		background: #fff url("../img/02_auth/pic2.png") no-repeat scroll 7px 10px
+
+	&__input
+		height: 50px;
+		padding-left: 35px
+		color: #606060
+		border: 1px #ededed solid
+		font-family: "Proxima Nova Light"
+		font-size: 15px
+		font-weight: 300
+		&-rb
+			color: #333333
+			
+			p
+				display: inline-block
+				padding-left: 35px
+				margin-bottom: 0
+		
+	&-btn
+		// color: #ffffff
+		font-family: "Proxima Nova Semibold"
+		font-size: 15px
+		text-transform: uppercase
+
+.s05ppp
+	position: fixed
+	left: 50%
+	top: 0px
+	width: 750px
+	// height: auto
+	transform: translate(-50%, 35%)
+	background-color: #fff
+	z-index: 9999
+	&-form
+		display: flex
+		flex-direction: row
+		background-color: #faf9f9
+		color: #ffffff
+
+	&-close
+		position: absolute
+		font-size: 35px
+		color: #fff
+		right: -30px
+		top: -50px
+		font-weight: 300
+		cursor: pointer
+

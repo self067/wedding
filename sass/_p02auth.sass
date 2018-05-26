@@ -18,42 +18,47 @@
 	&-inputs
 		display: flex
 		flex-direction: column
+	
 
 	&-img
+
 		width: 318px
 		height: 430px
 		background: pink url("../img/02_auth/picture.jpg") center no-repeat
 
 	&-form
+		color: #ffffff
 		padding-left: 30px
+		padding-top: 30px
 		display: flex
 		flex-direction: column
 		justify-content: space-around
-		align-items: stretch
+		// align-items: stretch
 
 	&-name
-		background: url("../img/02_auth/pic1.png") no-repeat scroll 5px 2px
-		padding-left: 30px
+		background: url("../img/02_auth/pic1.png") no-repeat scroll 7px 10px
 	&-phone
-		background: url("../img/02_auth/pic2.png") no-repeat scroll 5px 5px
-		padding-left: 30px
+		background: url("../img/02_auth/pic2.png") no-repeat scroll 7px 10px
 	&-email
-		background: url("../img/02_auth/pic3.png") no-repeat scroll 5px 2px
-		padding-left: 30px
+		background: url("../img/02_auth/pic3.png") no-repeat scroll 7px 10px
 
 	&__input
+		height: 50px;
+		padding-left: 35px
 		color: #606060
-		font-family: "Proxima Nova"
+		border: 1px #ededed solid
+		font-family: "Proxima Nova Light"
 		font-size: 15px
 		font-weight: 300
 		line-height: 24px
+		
 	&-forget
 		text-align: center
 		&__link
 			text-decoration: none
 			opacity: 0.5
 			color: #333333
-			font-family: "Proxima Nova"
+			font-family: "Proxima Nova Bold"
 			font-size: 14px
 			font-weight: 700
 			line-height: 30px
@@ -61,14 +66,14 @@
 		
 	&-btn
 		// color: #ffffff
-		font-family: "Proxima Nova - Semibold"
+		font-family: "Proxima Nova Semibold"
 		font-size: 15px
 		text-transform: uppercase
 		&-o
 			border: 1px solid #333333
 			background-color: #faf9f9
 			color: #333333
-			font-family: "Proxima Nova - Semibold"
+			font-family: "Proxima Nova Semibold"
 			font-size: 15px
 			font-weight: 400
 			text-transform: uppercase
@@ -76,22 +81,24 @@
 .ppp
 	position: fixed
 	left: 50%
-	top: 100px
+	top: 0px
 	width: 750px
 	// height: auto
-	transform: translateX(-50%)
+	transform: translate(-50%, 35%)
 	background-color: #fff
 	z-index: 9999
 	&-form
 		display: flex
 		flex-direction: row
+		background-color: #faf9f9
+		color: #ffffff
 
 	&-close
 		position: absolute
 		font-size: 35px
 		color: #fff
-		right: -20px
-		top: -37px
+		right: -30px
+		top: -50px
 		font-weight: 300
 		cursor: pointer
 
