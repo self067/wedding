@@ -14,6 +14,10 @@ body {
   height: 100%;
 }
 
+textarea {
+  resize: none;
+}
+
 img {
   max-width: 100%;
 }
@@ -49,6 +53,14 @@ h3, h4, h5, h6 {
   font-weight: normal;
   vertical-align: baseline;
   background: transparent;
+}
+
+.mb100 {
+  margin-bottom: 100px;
+}
+
+.mb200 {
+  margin-bottom: 200px;
 }
 
 body {
@@ -89,7 +101,7 @@ section {
 .section-subtitle {
   margin: auto;
   margin-bottom: 40px;
-  max-width: 50%;
+  max-width: 80%;
   color: #333333;
   font-family: 'Proxima Nova';
   font-size: 18px;
@@ -227,6 +239,14 @@ section {
   width: 50px;
   height: 50px;
   border: 1px #333333 solid;
+  margin-bottom: 5px;
+}
+
+.menu-el__text {
+  color: #333333;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 300;
 }
 
 .menu__head {
@@ -377,6 +397,7 @@ section {
   height: 50px;
   background-color: transparent;
   border-radius: 50%;
+  border: 1px #ffffff solid;
   position: fixed;
   top: 20px;
   left: 10px;
@@ -1083,14 +1104,16 @@ section {
   display: none;
   width: 50px;
   height: 50px;
-  background-color: transparent;
+  background-color: #faf8f9;
   border-radius: 50%;
-  position: fixed;
-  top: 20px;
-  left: 10px;
+  border: 1px #ffffff solid;
+  position: absolute;
+  top: 12px;
+  left: 30px;
 }
 
 .menu-link-b span, .menu-link-b span:before, .menu-link-b span:after {
+  color: #000;
   display: block;
   height: 2px;
   width: 18px;
@@ -1123,7 +1146,7 @@ section {
 }
 
 .menu-link-b_active span:before {
-  background-color: #faf8f9;
+  background-color: #333;
   -webkit-transform: rotate(135deg);
       -ms-transform: rotate(135deg);
           transform: rotate(135deg);
@@ -1131,7 +1154,7 @@ section {
 }
 
 .menu-link-b_active span:after {
-  background-color: #faf8f9;
+  background-color: #333;
   -webkit-transform: rotate(-135deg);
       -ms-transform: rotate(-135deg);
           transform: rotate(-135deg);
@@ -1304,19 +1327,24 @@ section {
 }
 
 .btn-block {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
-  background-color: #333333;
-  color: #ffffff;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-left: 4px;
+  margin-right: 4px;
   text-align: center;
   vertical-align: middle;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  background-color: #333333;
+  color: #ffffff;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
   font-family: "Proxima Nova";
   font-size: 13px;
   font-weight: 700;
+}
+
+.btn-block:hover {
+  cursor: pointer;
+  color: #fa7995;
 }
 
 .btn-blocks {
@@ -1339,7 +1367,7 @@ section {
 }
 
 .btn-block1 {
-  width: 130px;
+  width: 120px;
 }
 
 .btn-block2 {
@@ -1644,7 +1672,8 @@ section {
 .p06guestList-form__name {
   height: 50px;
   padding-left: 15px;
-  color: #ffffff;
+  background-color: #fff;
+  color: #606060;
   border: 1px #ededed solid;
   width: 30%;
 }
@@ -1657,9 +1686,8 @@ section {
   line-height: 24px;
 }
 
-.p07locationMap {
+.p07locationMap-tabs {
   text-align: center;
-  margin: auto;
 }
 
 .p07locationMap-form {
@@ -1667,11 +1695,15 @@ section {
   margin-bottom: 50px;
   padding-top: 50px;
   padding-bottom: 50px;
+  padding-right: 40px;
+  padding-left: 40px;
   text-align: center;
   background-color: #faf9f9;
 }
 
 .p07locationMap-form__label {
+  width: 70%;
+  margin-bottom: 20px;
   color: #333333;
   font-family: "Proxima Nova";
   font-size: 21px;
@@ -1680,10 +1712,11 @@ section {
 }
 
 .p07locationMap-form__name {
+  width: 70%;
   height: 50px;
   padding-left: 15px;
   border: 1px #ededed solid;
-  width: 30%;
+  width: 70%;
 }
 
 .p07locationMap-form__name:placeholder {
@@ -1694,8 +1727,25 @@ section {
   line-height: 24px;
 }
 
+.p07locationMap-button-left {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  margin-right: -2px;
+}
+
+.p07locationMap-button-right {
+  margin-left: -2px;
+  border-left: 0px  #fff solid;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
 .button-wobr {
-  border-radius: 1px;
+  margin-bottom: 30px;
 }
 
 .p09photoAlbum {
@@ -1710,17 +1760,38 @@ section {
 }
 
 .p09photoAlbum-button-wobr {
-  border-radius: 1px;
   margin-bottom: 20px;
 }
 
+.p09photoAlbum-button-left {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  margin-right: -2px;
+}
+
+.p09photoAlbum-button-right {
+  margin-left: -2px;
+  border-left: 0px  #fff solid;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .p09photoAlbum-form {
-  margin-top: 100px;
-  margin-bottom: 50px;
-  padding-top: 50px;
+  margin-top: 50px;
+  margin-bottom: 35px;
+  padding-top: 35px;
   padding-bottom: 50px;
   text-align: center;
   background-color: #faf9f9;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .p09photoAlbum-form__title {
@@ -1730,9 +1801,11 @@ section {
   font-size: 21px;
   font-weight: bold;
   line-height: 30px;
+  margin-bottom: 25px;
 }
 
 .p09photoAlbum-form__name {
+  width: 45%;
   padding-left: 30px;
   padding-right: 30px;
   border: 1px #ededed solid;
@@ -1748,6 +1821,7 @@ section {
 }
 
 .p09photoAlbum-form__browse {
+  width: 45%;
   padding-left: 30px;
   padding-right: 30px;
   border: 1px #ededed solid;
@@ -1834,7 +1908,7 @@ section {
   color: #222222;
   font-family: "Museo Cyrl 100";
   font-size: 24px;
-  line-height: 30px;
+  font-weight: bold;
 }
 
 .p12bookWishes-card__text {
@@ -1916,10 +1990,10 @@ section {
 }
 
 .p12bookWishes-inputs__text {
-  height: 50px;
+  height: 130px;
   padding-left: 15px;
   border: 1px #ededed solid;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 
 .p12bookWishes-inputs__text:placeholder {
@@ -1932,7 +2006,7 @@ section {
 .p12bookWishes-inputs__button {
   margin: auto;
   color: #ffffff;
-  font-family: "Proxima Nova - Semibold";
+  font-family: "Proxima Nova Semibold";
   font-size: 15px;
   font-weight: 400;
   line-height: 23.4px;
@@ -2326,9 +2400,60 @@ section {
     width: 20%;
     height: 20%;
   }
+  .section-subtitle {
+    max-width: 80%;
+  }
+  .p05invitation-birds {
+    display: none;
+  }
+  .p05invitation-row {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .p05invitation-img {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    max-width: 80%;
+  }
+  .p06guestList-img {
+    display: none;
+  }
+  .p06guestList-guests {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .p07locationMap-form__name {
+    -ms-flex-preferred-size: 90%;
+        flex-basis: 90%;
+    margin-bottom: 40px;
+  }
+  .p07locationMap-button {
+    display: block;
+  }
+  .p14letterGuests-img {
+    width: 30%;
+  }
+  .p14letterGuests-form__browse {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+  }
+  #p19player {
+    max-width: 90%;
+    height: auto;
+  }
 }
 
 @media (max-width: 991px) {
+  .mb100 {
+    margin-bottom: 30px;
+  }
+  .mb200 {
+    margin-bottom: 50px;
+  }
+  .mb300 {
+    margin-bottom: 50px;
+  }
   .hide-mobile {
     display: none;
   }
@@ -2394,7 +2519,6 @@ section {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    display: flex;
   }
   .s08social-block__img {
     padding: 7px 0px;
@@ -2412,6 +2536,58 @@ section {
   .menu-link {
     display: block;
     left: 0px;
+  }
+  .menu-link-b {
+    display: block;
+  }
+  .builder-menu {
+    left: -200px;
+  }
+  .builder-menu_active {
+    left: 0;
+  }
+  .section-builder {
+    margin-left: 0px;
+  }
+  .p05invitation-img {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    max-width: 100%;
+  }
+  .p05invitation-card__title {
+    margin-bottom: 10px;
+    max-width: 440px;
+    font-size: 18px;
+  }
+  .p05invitation-card__names {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 25px;
+  }
+  .p05invitation-card__date {
+    margin-bottom: 25px;
+    font-size: 22px;
+  }
+  .p05invitation-card__address {
+    font-size: 18px;
+  }
+  .p06guestList-guest {
+    margin-left: 20px;
+    font-size: 16px;
+  }
+  .p09photoAlbum-form__browse {
+    display: none;
+  }
+  .p09photoAlbum-form__name {
+    width: 70%;
+  }
+  .p14letterGuests-img {
+    width: 30%;
+  }
+  .p14letterGuests-form__browse {
+    -ms-flex-preferred-size: 0%;
+        flex-basis: 0%;
+    display: none;
   }
 }
 
@@ -2433,10 +2609,6 @@ section {
     margin-bottom: 20px;
     max-width: 80%;
     font-size: 16px;
-  }
-  .header-logo {
-    background: transparent;
-    width: 1px;
   }
   .footer-logo {
     background: transparent;
@@ -2520,6 +2692,29 @@ section {
   .s05ppp {
     width: 80%;
   }
+  .p04builder-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section-title {
+    font-size: 18px;
+  }
+  .p06guestList-row {
+    height: 100%;
+    max-height: 500px;
+  }
+  .p06guestList-guest {
+    margin-left: 15px;
+    font-size: 15px;
+  }
+  .p14letterGuests-img {
+    display: none;
+  }
+  .p14letterGuests-block {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -2583,6 +2778,32 @@ section {
     max-width: 70%;
     margin-right: auto;
     margin-left: auto;
+  }
+  .builder-menu {
+    width: 100px;
+  }
+  .section-title {
+    font-size: 14px;
+  }
+  .p05invitation-img {
+    -ms-flex-preferred-size: 90%;
+        flex-basis: 90%;
+  }
+  .p05invitation-card__title {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .p05invitation-card__names {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+  .p05invitation-card__date {
+    margin-bottom: 25px;
+    font-size: 18px;
+  }
+  .p05invitation-card__address {
+    font-size: 16px;
   }
 }
 

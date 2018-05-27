@@ -30,8 +30,8 @@
 		<div class="section-subtitle ">
 			Любовь - дороже всех сокровищ. Она - алмаз, которого не могут купить даже цари. Она - целый мир, хотя ее обнимают двумя руками.
 		</div>
-		<button class="button button-o p09photoAlbum-button-wobr">Lova Story</button>
-		<button class="button button-o p09photoAlbum-button-wobr">The Wedding Day</button>
+		<button class="button button-o p09photoAlbum-button-wobr p09photoAlbum-button-left">Lova Story</button>
+		<button class="button button-o p09photoAlbum-button-wobr p09photoAlbum-button-right">The Wedding Day</button>
 
 	<!-- <div class="album">
 		<div class="container-fluid">

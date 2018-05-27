@@ -25,7 +25,7 @@
 <?php include 'builder-header.php';?>
 
 
-	<section class="p06guestList section-builder" id="p06guestList">
+	<section class="p06guestList mb200 section-builder" id="p06guestList">
 		<h2 class="section-title section-title__build">Список гостей</h2>
 		<div class="section-subtitle ">
 			Еще с давних времен свадьбы на Руси славились большим количеством гостей. И как же иначе, ведь свадьба – это отличный повод увидеть всех самых дальних родственников. Но времена меняются, и сейчас большинство женихов и невест предпочитают составлять список гостей самостоятельно, включая в него только тех людей, которых они хотели бы видеть на своем торжестве.

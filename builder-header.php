@@ -9,19 +9,19 @@
 						</a>
 					</li>
 
-					<li>
+					<li class="hide-mobile">
 						<a href="#">Мои сайты</a>
 					</li>
-					<li>
+					<li class="hide-mobile">
 						<a href="#">Тарифы и оплата</a>
 					</li>
-					<li>
+					<li class="hide-mobile">
 						<a href="#">Личный кабинет</a>
 					</li>
-					<li>
+					<li class="hide-mobile">
 						<button class="button menu-build-button">Предпросмотр</button>
 					</li>
-					<li>
+					<li class="hide-mobile">
 						<button class="button menu-build-button menu-build-button-pink">Опубликовать сайт</button>
 					</li>
 				</ul>
@@ -38,24 +38,15 @@
 
 	<div class="menu-mobil-b">
 		<ul>
-			<li>
-				<a href="#s02video">Видео</a>
-			</li>
-			<li>
-				<a href="#s03tools">Инструменты сайта</a>
-			</li>
-			<li>
-				<a href="#s04samples">Примеры сайтов</a>
-			</li>
-			<li>
-				<a href="#s05tarifs">Цены</a>
-			</li>
-			<li>
-				<a href="#s06about">О нас</a>
-			</li>
-			<li>
-				<a href="#s07contacts">Контакты</a>
-			</li>
+					<li>
+						<a href="#">Мои сайты</a>
+					</li>
+					<li>
+						<a href="#">Тарифы и оплата</a>
+					</li>
+					<li>
+						<a href="#">Личный кабинет</a>
+					</li>
 		</ul>
 	</div>
 

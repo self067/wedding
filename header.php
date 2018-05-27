@@ -7,6 +7,53 @@
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 
+	<div class="menu-ext menu-ext__head">
+		<div class="container">
+
+			<div class="menu__head">
+					<ul class="align-items-center">
+						<li>
+							<a href="#"><div class="header-logo"></div></a>
+						</li>
+						<li>
+							<a href="#s02video">Видео</a>
+						</li>
+						<li>
+							<a href="#s03tools">Инструменты сайта</a>
+						</li>
+						<li>
+							<a href="#s04samples">Примеры сайтов</a>
+						</li>
+						<li>
+							<a href="#s05tarifs">Цены</a>
+						</li>
+						<li>
+							<a href="#s06about">О нас</a>
+						</li>
+						<li>
+							<a href="#s07contacts">Контакты</a>
+						</li>
+						<!-- <li> -->
+							<!-- <button class="button menu__head-button">Войти</button> -->
+						<!-- </li> -->
+					</ul>
+
+				<div class="menu__head-button-block">
+					<button class="button button-small  menu__head-button btn-enter modal-call">Войти</button>
+				</div>
+
+
+			</div>
+			<!-- <div class="menu__head"> -->
+
+		</div>
+		<!-- <div class="container"> -->
+	</div>
+	<!-- menu-ext menu-ext__head -->
+
+
+
+
 <!-- <section class="fscreen fscreen-slider" id="2.first"> -->
 
 <section class="fscreen fscreen-slider" id="2.first">
@@ -64,6 +111,50 @@
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 
 <div>
+<div class="menu-ext menu-ext__head">
+		<div class="container">
+
+			<div class="menu__head">
+					<ul class="align-items-center">
+						<li>
+							<a href="#"><div class="header-logo"></div></a>
+						</li>
+						<li>
+							<a href="#s02video">Видео</a>
+						</li>
+						<li>
+							<a href="#s03tools">Инструменты сайта</a>
+						</li>
+						<li>
+							<a href="#s04samples">Примеры сайтов</a>
+						</li>
+						<li>
+							<a href="#s05tarifs">Цены</a>
+						</li>
+						<li>
+							<a href="#s06about">О нас</a>
+						</li>
+						<li>
+							<a href="#s07contacts">Контакты</a>
+						</li>
+						<!-- <li> -->
+							<!-- <button class="button menu__head-button">Войти</button> -->
+						<!-- </li> -->
+					</ul>
+
+				<div class="menu__head-button-block">
+					<button class="button button-small  menu__head-button btn-enter modal-call">Войти</button>
+				</div>
+
+
+			</div>
+			<!-- <div class="menu__head"> -->
+
+		</div>
+		<!-- <div class="container"> -->
+	</div>
+	<!-- menu-ext menu-ext__head -->
+
 
 <!-- <section class="fscreen fscreen-slider" id="2.first"> -->
 
@@ -117,10 +208,54 @@
 
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <div>
-</section> -->
+
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<div class="menu-ext menu-ext__head">
+		<div class="container">
+
+			<div class="menu__head">
+					<ul class="align-items-center">
+						<li>
+							<a href="#"><div class="header-logo"></div></a>
+						</li>
+						<li>
+							<a href="#s02video">Видео</a>
+						</li>
+						<li>
+							<a href="#s03tools">Инструменты сайта</a>
+						</li>
+						<li>
+							<a href="#s04samples">Примеры сайтов</a>
+						</li>
+						<li>
+							<a href="#s05tarifs">Цены</a>
+						</li>
+						<li>
+							<a href="#s06about">О нас</a>
+						</li>
+						<li>
+							<a href="#s07contacts">Контакты</a>
+						</li>
+						<!-- <li> -->
+							<!-- <button class="button menu__head-button">Войти</button> -->
+						<!-- </li> -->
+					</ul>
+
+				<div class="menu__head-button-block">
+					<button class="button button-small  menu__head-button btn-enter modal-call">Войти</button>
+				</div>
+
+
+			</div>
+			<!-- <div class="menu__head"> -->
+
+		</div>
+		<!-- <div class="container"> -->
+	</div>
+	<!-- menu-ext menu-ext__head -->
+
 
 <!-- <section class="fscreen fscreen-slider" id="2.first"> -->
 
@@ -175,6 +310,50 @@
 <div>
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<div class="menu-ext menu-ext__head">
+		<div class="container">
+
+			<div class="menu__head">
+					<ul class="align-items-center">
+						<li>
+							<a href="#"><div class="header-logo"></div></a>
+						</li>
+						<li>
+							<a href="#s02video">Видео</a>
+						</li>
+						<li>
+							<a href="#s03tools">Инструменты сайта</a>
+						</li>
+						<li>
+							<a href="#s04samples">Примеры сайтов</a>
+						</li>
+						<li>
+							<a href="#s05tarifs">Цены</a>
+						</li>
+						<li>
+							<a href="#s06about">О нас</a>
+						</li>
+						<li>
+							<a href="#s07contacts">Контакты</a>
+						</li>
+						<!-- <li> -->
+							<!-- <button class="button menu__head-button">Войти</button> -->
+						<!-- </li> -->
+					</ul>
+
+				<div class="menu__head-button-block">
+					<button class="button button-small  menu__head-button btn-enter modal-call">Войти</button>
+				</div>
+
+
+			</div>
+			<!-- <div class="menu__head"> -->
+
+		</div>
+		<!-- <div class="container"> -->
+	</div>
+	<!-- menu-ext menu-ext__head -->
+
 
 
 <!-- <section class="fscreen fscreen-slider" id="2.first"> -->
@@ -231,6 +410,50 @@
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <div>
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<div class="menu-ext menu-ext__head">
+		<div class="container">
+
+			<div class="menu__head">
+					<ul class="align-items-center">
+						<li>
+							<a href="#"><div class="header-logo"></div></a>
+						</li>
+						<li>
+							<a href="#s02video">Видео</a>
+						</li>
+						<li>
+							<a href="#s03tools">Инструменты сайта</a>
+						</li>
+						<li>
+							<a href="#s04samples">Примеры сайтов</a>
+						</li>
+						<li>
+							<a href="#s05tarifs">Цены</a>
+						</li>
+						<li>
+							<a href="#s06about">О нас</a>
+						</li>
+						<li>
+							<a href="#s07contacts">Контакты</a>
+						</li>
+						<!-- <li> -->
+							<!-- <button class="button menu__head-button">Войти</button> -->
+						<!-- </li> -->
+					</ul>
+
+				<div class="menu__head-button-block">
+					<button class="button button-small  menu__head-button btn-enter modal-call">Войти</button>
+				</div>
+
+
+			</div>
+			<!-- <div class="menu__head"> -->
+
+		</div>
+		<!-- <div class="container"> -->
+	</div>
+	<!-- menu-ext menu-ext__head -->
+
 
 <!-- <section class="fscreen fscreen-slider" id="2.first"> -->
 
@@ -285,6 +508,50 @@
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <div>
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<div class="menu-ext menu-ext__head">
+		<div class="container">
+
+			<div class="menu__head">
+					<ul class="align-items-center">
+						<li>
+							<a href="#"><div class="header-logo"></div></a>
+						</li>
+						<li>
+							<a href="#s02video">Видео</a>
+						</li>
+						<li>
+							<a href="#s03tools">Инструменты сайта</a>
+						</li>
+						<li>
+							<a href="#s04samples">Примеры сайтов</a>
+						</li>
+						<li>
+							<a href="#s05tarifs">Цены</a>
+						</li>
+						<li>
+							<a href="#s06about">О нас</a>
+						</li>
+						<li>
+							<a href="#s07contacts">Контакты</a>
+						</li>
+						<!-- <li> -->
+							<!-- <button class="button menu__head-button">Войти</button> -->
+						<!-- </li> -->
+					</ul>
+
+				<div class="menu__head-button-block">
+					<button class="button button-small  menu__head-button btn-enter modal-call">Войти</button>
+				</div>
+
+
+			</div>
+			<!-- <div class="menu__head"> -->
+
+		</div>
+		<!-- <div class="container"> -->
+	</div>
+	<!-- menu-ext menu-ext__head -->
+
 
 <!-- <section class="fscreen fscreen-slider" id="2.first"> -->
 
@@ -340,6 +607,50 @@
 
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+<div class="menu-ext menu-ext__head">
+		<div class="container">
+
+			<div class="menu__head">
+					<ul class="align-items-center">
+						<li>
+							<a href="#"><div class="header-logo"></div></a>
+						</li>
+						<li>
+							<a href="#s02video">Видео</a>
+						</li>
+						<li>
+							<a href="#s03tools">Инструменты сайта</a>
+						</li>
+						<li>
+							<a href="#s04samples">Примеры сайтов</a>
+						</li>
+						<li>
+							<a href="#s05tarifs">Цены</a>
+						</li>
+						<li>
+							<a href="#s06about">О нас</a>
+						</li>
+						<li>
+							<a href="#s07contacts">Контакты</a>
+						</li>
+						<!-- <li> -->
+							<!-- <button class="button menu__head-button">Войти</button> -->
+						<!-- </li> -->
+					</ul>
+
+				<div class="menu__head-button-block">
+					<button class="button button-small  menu__head-button btn-enter modal-call">Войти</button>
+				</div>
+
+
+			</div>
+			<!-- <div class="menu__head"> -->
+
+		</div>
+		<!-- <div class="container"> -->
+	</div>
+	<!-- menu-ext menu-ext__head -->
+
 
 <!-- <section class="fscreen fscreen-slider" id="2.first"> -->
 
@@ -424,50 +735,6 @@
 		</ul>
 	</div>
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
-
-	<div class="menu-ext menu-ext__head">
-		<div class="container">
-
-			<div class="menu__head">
-					<ul class="align-items-center">
-						<li>
-							<a href="#"><div class="header-logo"></div></a>
-						</li>
-						<li>
-							<a href="#s02video">Видео</a>
-						</li>
-						<li>
-							<a href="#s03tools">Инструменты сайта</a>
-						</li>
-						<li>
-							<a href="#s04samples">Примеры сайтов</a>
-						</li>
-						<li>
-							<a href="#s05tarifs">Цены</a>
-						</li>
-						<li>
-							<a href="#s06about">О нас</a>
-						</li>
-						<li>
-							<a href="#s07contacts">Контакты</a>
-						</li>
-						<!-- <li> -->
-							<!-- <button class="button menu__head-button">Войти</button> -->
-						<!-- </li> -->
-					</ul>
-
-				<div class="menu__head-button-block">
-					<button class="button button-small  menu__head-button btn-enter modal-call">Войти</button>
-				</div>
-
-
-			</div>
-			<!-- <div class="menu__head"> -->
-
-		</div>
-		<!-- <div class="container"> -->
-	</div>
-	<!-- menu-ext menu-ext__head -->
 
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 

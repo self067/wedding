@@ -75,9 +75,10 @@ $(document).ready(function(){
 
 
 
-	<div class="builder-menu">
+	<div class="builder-menu builder-menu__hide-mobile" id="builder-menu">
 		<div class="menu-left">
 			<ul>
+
 				<li>
 					<div class="menu-el" data-toggle="tooltip" data-placement="right" title="Здесь можно выбрать фон для сайта">
 						<a href="p04builder.php">
@@ -85,8 +86,8 @@ $(document).ready(function(){
 							<div class="menu-el__text">Фон</div>
 						</a>
 					</div>
-
 				</li>
+
 				<li>
 					<div class="menu-el" data-toggle="tooltip" data-placement="auto" title="Здесь можно составить приглашение">
 						<a href="p05invitation.php">
@@ -95,6 +96,7 @@ $(document).ready(function(){
 						</a>
 					</div>
 				</li>
+
 				<li>
 					<div class="menu-el" data-toggle="tooltip" data-placement="auto" title="Здесь можно составить список гостей">
 						<a href="p06guestList.php">
@@ -103,6 +105,7 @@ $(document).ready(function(){
 						</a>
 					</div>
 				</li>
+
 				<li>
 					<div class="menu-el" data-toggle="tooltip" data-placement="auto" title="Здесь можно подготовить карту проезда">
 						<a href="p07locationMap.php">
@@ -111,7 +114,8 @@ $(document).ready(function(){
 						</a>
 					</div>
 				</li>
-				<li>
+
+				<li class="hide-mobile">
 					<div class="menu-el" data-toggle="tooltip" data-placement="auto" title="История. Этот элемент доступен на тарифе 'Silver'">
 						<a href="#">
 							<img class="menu-el__img" src="img/left-menu/icon5.png" alt="">
@@ -128,14 +132,14 @@ $(document).ready(function(){
 					</div>
 				</li>
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@				 -->
-				<li>
+				<!-- <li>
 					<div class="menu-el" data-toggle="tooltip" data-placement="auto" title="Дресс-код. Этот элемент доступен на тарифе 'Silver'">
 						<a href="#">
 							<img class="menu-el__img" src="img/left-menu/icon7.png" alt="">
 							<div class="menu-el__text">Дресс-код</div>
 						</a>
 					</div>
-				</li>
+				</li> -->
 <!-- @@@@@@@@@@@@@@@@@@@@ -->
 				<li>
 					<div class="menu-el" data-toggle="tooltip" data-placement="auto" title="Книга пожеланий. ">
@@ -145,7 +149,8 @@ $(document).ready(function(){
 						</a>
 					</div>
 				</li>
-				<li>
+
+				<li class="hide-mobile">
 					<div class="menu-el" data-toggle="tooltip" data-placement="auto" title="Виш-лист.  Этот элемент доступен на тарифе 'Silver'">
 						<a href="#">
 							<img class="menu-el__img" src="img/left-menu/icon9.png" alt="">
@@ -153,6 +158,7 @@ $(document).ready(function(){
 						</a>
 					</div>
 				</li>
+
 				<li>
 					<div class="menu-el" data-toggle="tooltip" data-placement="auto" title="Письмо гостя">
 						<a href="p14letterGuests.php">
@@ -162,16 +168,16 @@ $(document).ready(function(){
 					</div>
 				</li>
 
-				<li>
+				<!-- <li>
 					<div class="menu-el" data-toggle="tooltip" data-placement="auto" title="Схема рассадки.  Этот элемент доступен на тарифе 'Silver'">
 						<a href="#">
 							<img class="menu-el__img" src="img/left-menu/icon11.png" alt="">
 							<div class="menu-el__text">Схема рассадки</div>
 						</a>
 					</div>
-				</li>
+				</li> -->
 
-				<li>
+				<li class="hide-mobile">
 					<div class="menu-el" data-toggle="tooltip" data-placement="auto" title="Блог невесты.  Этот элемент доступен на тарифе 'Silver'">
 						<a href="#">
 							<img class="menu-el__img" src="img/left-menu/icon12.png" alt="">
@@ -180,7 +186,7 @@ $(document).ready(function(){
 					</div>
 				</li>
 
-				<li>
+				<li class="hide-mobile">
 					<div class="menu-el" data-toggle="tooltip" data-placement="auto" title="Фотоальбом гостей. Этот элемент доступен на тарифе 'Silver'">
 						<a href="#">
 							<img class="menu-el__img" src="img/left-menu/icon13.png" alt="">
@@ -189,14 +195,14 @@ $(document).ready(function(){
 					</div>
 				</li>
 
-				<li>
+				<!-- <li>
 					<div class="menu-el" data-toggle="tooltip" data-placement="auto" title="Стоп-лист.  Этот элемент доступен на тарифе 'Silver'">
 						<a href="#">
 							<img class="menu-el__img" src="img/left-menu/icon14.png" alt="">
 							<div class="menu-el__text">Стоп-лист</div>
 						</a>
 					</div>
-				</li>
+				</li> -->
 
 				<li>
 					<div class="menu-el" data-toggle="tooltip" data-placement="auto" title="Видеовиджет YouTube">
@@ -207,7 +213,7 @@ $(document).ready(function(){
 					</div>
 				</li>
 
-				<li>
+				<li class="hide-mobile">
 					<div class="menu-el" data-toggle="tooltip" data-placement="auto" title="Карточки гостя.  Этот элемент доступен на тарифе 'Silver'">
 						<a href="#">
 							<img class="menu-el__img" src="img/left-menu/icon7.png" alt="">
@@ -221,6 +227,17 @@ $(document).ready(function(){
 		</div>
 <!-- @@@@@ -->
 
+
+
+
+<!-- @@@@@@@@@@ -->
+	</div>
+	<!-- builder-page -->
+
+
+	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+
 	<div class="dark-bg dark-bg8 builder-footer">
 		<div class="menu-build menu-build__foot">
 
@@ -229,16 +246,17 @@ $(document).ready(function(){
 					<ul class="align-items-center ">
 						<li>
 							<a href="index.php">
-								<img src="img/logo-mywedding.png" alt="logo">
+								<div class="header-logo"></div>
+							<!-- <img src="img/logo-mywedding.png" alt="logo"> -->
 							</a>
 						</li>
-						<li>
+						<li class="hide-mobile">
 							<a href="#">Мои сайты</a>
 						</li>
-						<li>
+						<li class="hide-mobile">
 							<a href="#">Тарифы и оплата</a>
 						</li>
-						<li>
+						<li class="hide-mobile">
 							<a href="#">Личный кабинет</a>
 						</li>
 						<li>
@@ -257,22 +275,46 @@ $(document).ready(function(){
 	<!-- .footer -->
 
 
-
-<!-- @@@@@@@@@@ -->
-	</div>
-	<!-- builder-page -->
-
-
-	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
-	<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
-
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 
 <script src="js/jquery.magnifier.js"></script>
 
+<script>
+	jQuery(function($){
+		$(document).ready(function () {
+			// var link = $(".menu-link-b");
+			// var link_active = $(".menu-link-b_active");
+			// var menu = $(".menu-mobil-b");
+			// var nav_link = $(".menu-mobil-b a");
 
+			var link = $(".menu-link-b");
+			var link_active = $(".menu-link-b_active");
+			var menu = $("#builder-menu");
+			var nav_link = $(".builder-menu a");
 
+			link.click(function () {
+				link.toggleClass("menu-link-b_active");
+				menu.toggleClass("builder-menu_active");
+				// menu.css("display", "block");
+				// menu.style.display = "block";
 
+			});
+			link_active.click(function () {
+				link.removeClass("menu-link-b_active");
+				menu.removeClass("builder-menu_active");
+				// menu.css("display", "none");
+				// menu.style.display = "none";
 
+			});
+			nav_link.click(function () {
+				link.toggleClass("menu-link-b_active");
+				menu.toggleClass("builder-menu_active");
+				// menu.css("display", "none");
+
+			});
+		});
+	});
+	</script>
 
 
 </body>

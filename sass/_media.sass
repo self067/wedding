@@ -10,16 +10,65 @@
 			width: 20%
 			height: 20%
 
+
+	.section-subtitle
+		max-width: 80%	
+
+	.p05invitation
+		&-birds
+			display: none
+		&-row
+			justify-content: center
+		&-img
+			flex-basis: 100%
+			// margin-left: auto
+			// margin-right: auto
+			max-width: 80%
+
+	.p06guestList
+		&-img
+			display: none
+		&-guests
+			flex-basis: 100%
+
+			
+	.p07locationMap
+		&-form__name
+			flex-basis: 90%
+			margin-bottom: 40px
+			
+		&-button
+			display: block
+			// flex-basis: 30%
+
+	.p14letterGuests
+		&-img
+			width: 30%
+		&-form__browse
+			flex-basis: 40%
+
+	// .p19youtubeVideo
+	#p19player
+		max-width: 90%
+		height: auto
+
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 @media (max-width: 991px)  
 	
+	.mb100
+		margin-bottom: 30px
+	.mb200	
+		margin-bottom: 50px
+	.mb300
+		margin-bottom: 50px
+
 	.hide-mobile
 		display: none
 	.show-mobile
 		display: block
-
-		
 
 	.header
 		&-logo
@@ -60,38 +109,21 @@
 			margin-bottom: 20px
 			font-size: 20px
 
-	// .s07contacts
-	// 	textarea
-	// 		// width: 500px
-	// 	input
-	// 		width: 100%
-	// 	label
-	// 		font-size: 14px
-	// 		margin-left: 5px
-
 	.s08social
-
 		&-title
 			margin-bottom: 30px
 			font-size: 18px
 		&-block
-			// flex-basis: 10%	
 			height: 60px
 			width: 60px
 			justify-content: center
 			align-items: center
-			// text-align: center
 			margin: 0px 40px
-			// padding: 5px 
 			border-radius: 50%
-
 			
 			&s__mobile
 				display: flex
 				flex-direction: row
-	
-				display: flex
-
 
 			&__img
 				padding: 7px 0px
@@ -102,12 +134,84 @@
 				margin: 0
 				font-size: 14px
 
+
 	.menu-ext
 		display: none
 		height: 0
+	
+	
 	.menu-link
 		display: block
 		left: 0px		
+
+	// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+		
+	.menu-link-b
+		display: block
+		// left: 0px		
+
+	// .builder-menu__hide-mobile
+	// 	left: -200px
+	
+	.builder-menu
+		left: -200px
+		// display: none
+		&_active
+			left: 0
+			// display: block
+	
+
+	.section-builder 
+		margin-left: 0px
+
+
+	// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+	// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+
+
+	.p05invitation
+		&-img
+			flex-basis: 100%
+			// margin-left: auto
+			// margin-right: auto
+			max-width: 100%
+		&-card
+			&__title
+				margin-bottom: 10px
+				max-width: 440px
+				font-size: 18px;
+			&__names
+				margin-top: 15px
+				margin-bottom: 25px
+				font-size: 25px;
+			&__date
+				margin-bottom: 25px
+				font-size: 22px;
+			&__address
+				font-size: 18px;
+
+	.p06guestList
+		&-guest
+			margin-left: 20px
+			font-size: 16px
+
+
+	.p09photoAlbum
+		&-form__browse
+			display: none
+		&-form__name
+			width: 70%
+
+	.p14letterGuests
+		&-img
+			width: 30%
+		&-form__browse
+			flex-basis: 0%
+			display: none
+
+
 
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -136,10 +240,10 @@
 			font-size: 16px
 
 
-	.header
-		&-logo
-			background: transparent 
-			width: 1px	
+	// .header
+		// &-logo
+			// background: transparent 
+			// width: 1px	
 	.footer
 		&-logo
 			background: transparent 
@@ -243,7 +347,29 @@
 	.s05ppp
 		width: 80%
 
+	.p04builder
+		&-btn
+			display: block
+			margin-left: auto
+			margin-right: auto
 
+
+	.section-title
+		font-size: 18px
+
+	.p06guestList
+		&-row
+			height: 100%	
+			max-height: 500px
+		&-guest
+			margin-left: 15px
+			font-size: 15px
+
+	.p14letterGuests
+		&-img
+			display: none
+		&-block
+			flex-basis: 100%
 
 
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
@@ -330,6 +456,40 @@
 				margin-right: auto
 				margin-left: auto
 				
+
+	.builder-menu
+		width: 100px
+
+	// .section-builder
+	// 	margin-left: 120px
+
+	.section-title
+		font-size: 14px
+
+	.p05invitation
+		&-img
+			flex-basis: 90%
+			// margin-left: auto
+			// margin-right: auto
+			// max-width: 50%
+		&-card
+			&__title
+				margin-bottom: 10px
+				// max-width: 440px
+				font-size: 16px;
+			&__names
+				margin-top: 15px
+				margin-bottom: 25px
+				font-size: 20px;
+			&__date
+				margin-bottom: 25px
+				font-size: 18px;
+			&__address
+				font-size: 16px;
+
+
+
+
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

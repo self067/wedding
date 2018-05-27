@@ -31,8 +31,10 @@
 			Это скорее не просто информационная карточка(ведь любой маршрут уже давно можно найти в интернете), а скорее декоративный и атмосферный элемент вашего комплекта полиграфии
 		</div>
 
-		<button class="button button-o button-wobr">Google-карта</button>
-		<button class="button button-o button-wobr">Яндекс карта</button>
+		<div class="p07locationMap-tabs">
+			<button class="button button-o button-wobr p07locationMap-button-left">Google-карта</button>
+			<button class="button button-o button-wobr p07locationMap-button-right">Яндекс карта</button>
+		</div>
 
 		<div class="container">
 			<img src="img/07_location-map/map.jpg" alt="">
@@ -45,7 +47,7 @@
 		
 		<div class="row p07locationMap-inputs justify-content-around">
 			<input class="p07locationMap-form__name" type="text" placeholder="Введите адрес Вашего мероприятия">
-			<button class="button ">ДОБАВИТЬ</button>
+			<button class="button p07locationMap-button">ДОБАВИТЬ</button>
 		</div>
 	</form>
 
@@ -80,6 +82,9 @@
 			</div>
 
 		</div>
+
+<div class="mb100"></div>
+
 
 <?php include 'builder-footer.php';?>
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->

@@ -25,7 +25,7 @@
 
 <!-- <iframe width="954" height="580" src="https://www.youtube.com/embed/JybuOqsOYs8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
 
-<section class="p19youtubeVideo section-builder" id="p19youtubeVideo">
+<section class="p19youtubeVideo section-builder mb200" id="p19youtubeVideo">
 	<h2 class="section-title section-title__build">Видеовиджет YouTube</h2>
 	<div class="section-subtitle">
 		В этом видео мы подробно расскажем Вам как просто сделать в нашем конструкторе

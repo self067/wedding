@@ -25,7 +25,7 @@
 <?php include 'builder-header.php';?>
 
 
-	<section class="p05invitation  section-builder " id="p05invitation">
+	<section class="section-builder  p05invitation   " id="p05invitation">
 		<h2 class="section-title section-title__build">Приходите на нашу свадьбу</h2>
 		<div class="section-subtitle ">
 			Сбылась наша мечта — мы вместе. Нас соединила любовь. А 23 сентября 2018 года соединят и узы брака. Мы хотим поделится своим счастьем с вами. Будем рады видеть вас в 10:00 в ЗАГСе на Московском пр-кте, 8. Наше торжество станет самым лучшим праздником, если на нем будете присутствовать вы.
@@ -37,7 +37,7 @@
 		<div class="container">
 			<!-- <div class="s05invitation-row"> -->
 			<div class="p05invitation-row">
-				<img src="img/05_Invitation/birds-left.png" alt="" class="s05invitation-birds">
+				<img src="img/05_Invitation/birds-left.png" alt="" class="p05invitation-birds">
 
 				<div class="p05invitation-img">
 			
@@ -50,7 +50,7 @@
 					</div>
 				</div>
 			
-				<img src="img/05_Invitation/birds-right.png" alt="" class="s05invitation-birds">
+				<img src="img/05_Invitation/birds-right.png" alt="" class="p05invitation-birds">
 			
 
 			</div>
