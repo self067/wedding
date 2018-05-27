@@ -65,20 +65,18 @@
 			<!-- /.album-blocks -->
 
 
-	<form class="p09photoAlbum-form" action="">
+	<form class="p09photoAlbum-form" action="#">
 	<div class="container">
-		<label class="p09photoAlbum-form__title" for="">Добавить фотографии:</label>
+		<label class="p09photoAlbum-form__title" for="p09photoAlbum-form__name">Добавить фотографии:</label>
 
 		<div class="row p09photoAlbum-form-inputs justify-content-around">
-			<input class="p09photoAlbum-form__name" type="text" placeholder="Выберите фото с компьютера">
+			<input id="p09photoAlbum-form__name" class="p09photoAlbum-form__name" type="text" placeholder="Выберите фото с компьютера">
 			<button class="button button-o">Обзор</button>
 			<div class="p09photoAlbum-form__browse">Или просто перетащите фото сюда</div>
 
 		</div>
 		<button class="button p09photoAlbum-form__button">СОХРАНИТЬ</button>
-
-	<div class="container">
-	
+	</div>	
 	</form>
 
 

@@ -298,7 +298,8 @@ section {
 }
 
 .menu__foot-button {
-  padding: 10px 20px;
+  height: 42px;
+  padding: 10px 35px;
 }
 
 .menu-ext {
@@ -671,7 +672,7 @@ section {
 
 .s03tools-block__title {
   color: #484848;
-  font-family: "Proxima Nova Rg";
+  font-family: "Proxima Nova Bold";
   font-size: 18px;
   font-weight: 700;
 }
@@ -679,18 +680,18 @@ section {
 .s03tools-block__text {
   color: #333333;
   font-size: 16px;
-  font-family: "Proxima Nova Light";
-  font-weight: 300;
+  font-family: "Proxima Nova";
 }
 
 .s03tools-block:hover {
   cursor: pointer;
-  border: 1px solid #fa7995;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .s03tools-text {
   color: #333333;
-  font-family: "Proxima Nova - Semibold";
+  font-family: "Proxima Nova Semibold";
   font-size: 21px;
   font-weight: 600;
 }
@@ -810,7 +811,7 @@ section {
 
 .s06about-text {
   color: #484848;
-  font-family: "Proxima Nova Light";
+  font-family: "Proxima Nova";
   font-size: 16px;
   font-weight: 300;
   line-height: 24px;
@@ -1636,8 +1637,9 @@ section {
   margin-bottom: 7px;
   margin-left: 30px;
   color: #525252;
-  font-family: "Proxima Nova Rg";
+  font-family: "Proxima Nova";
   font-size: 18px;
+  font-weight: 400;
 }
 
 .p06guestList-guests {
@@ -1659,6 +1661,8 @@ section {
   padding-bottom: 50px;
   text-align: center;
   background-color: #faf9f9;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .p06guestList-form__label {
@@ -2237,7 +2241,7 @@ section {
   height: 50px;
   padding-left: 15px;
   border: 1px #ededed solid;
-  width: 30%;
+  width: 40%;
 }
 
 .p19youtubeVideo-form__name:placeholder {
@@ -2495,6 +2499,17 @@ section {
     margin-bottom: 20px;
     font-size: 20px;
   }
+  .s05tarifs-block {
+    border-top: 1px #ebebeb solid;
+    margin-bottom: 20px;
+    max-width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .s05tarifs-title__gold-flag {
+    top: 0px;
+    right: 150px;
+  }
   .s08social-title {
     margin-bottom: 30px;
     font-size: 18px;
@@ -2584,10 +2599,22 @@ section {
   .p14letterGuests-img {
     width: 30%;
   }
+  .p14letterGuests-form__name {
+    -ms-flex-preferred-size: 65%;
+        flex-basis: 65%;
+  }
   .p14letterGuests-form__browse {
-    -ms-flex-preferred-size: 0%;
-        flex-basis: 0%;
     display: none;
+  }
+  .p14letterGuests-form__button-browse {
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+  }
+  .p12bookWishes-img {
+    background: #fff url("") center no-repeat;
+  }
+  .p19youtubeVideo-form__name {
+    width: 50%;
   }
 }
 
@@ -2654,6 +2681,12 @@ section {
   .s05tarifs-button {
     margin-bottom: 30px;
   }
+  .s05tarifs-block {
+    max-width: 85%;
+  }
+  .s05tarifs-title__gold-flag {
+    right: 70px;
+  }
   .s08social-block {
     height: 50px;
     width: 50px;
@@ -2708,6 +2741,17 @@ section {
     margin-left: 15px;
     font-size: 15px;
   }
+  .p06guestList-form {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .p06guestList-form__name {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+  .p06guestList-form__button {
+    display: block;
+  }
   .p14letterGuests-img {
     display: none;
   }
@@ -2718,6 +2762,12 @@ section {
 }
 
 @media (max-width: 576px) {
+  .menu-build-button {
+    margin-right: 10px;
+  }
+  .hide-mobile576 {
+    display: none;
+  }
   .section-title {
     font-size: 20px;
     margin-bottom: 15px;
@@ -2805,6 +2855,34 @@ section {
   .p05invitation-card__address {
     font-size: 16px;
   }
+  .p12bookWishes-card__title {
+    font-size: 20px;
+  }
+  .p12bookWishes-blockNew {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .p12bookWishes-inputs {
+    width: 80%;
+  }
+  .p14letterGuests-form__name {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+  .p14letterGuests-form__button-browse {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .p19youtubeVideo-form__name {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .p19youtubeVideo-form__button {
+    display: block;
+  }
 }
 
 @media (max-width: 480px) {
@@ -2829,5 +2907,14 @@ section {
   }
   .menu-ext {
     padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  .s05tarifs ul {
+    margin-bottom: 50px;
+  }
+  .s05tarifs ul-block {
+    max-width: 95%;
   }
 }

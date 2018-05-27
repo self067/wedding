@@ -54,16 +54,16 @@
 
 	</div>
 	<!-- .container -->
-
+	<div class="container">
 		<form class="p19youtubeVideo-form" action="">
 			<label class="p19youtubeVideo-form__label" for="">Ссылка на видео</label>
 			
 			<div class="row p19youtubeVideo-inputs justify-content-around">
 				<input class="p19youtubeVideo-form__name" type="text" placeholder="Введите адрес Вашего видео">
-				<button class="button ">ДОБАВИТЬ</button>
+				<button class="button p19youtubeVideo-form__button">ДОБАВИТЬ</button>
 			</div>
 		</form>
-
+	</div>
 
 </section>
 

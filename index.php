@@ -223,7 +223,7 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-12 col-md-4">
+			<div class="col-12 col-lg-4">
 				<div class="s05tarifs-block">
 					<div class="s05tarifs-title s05tarifs-title__basic">Basic</div>
 						<ul>
@@ -244,7 +244,7 @@
 				</div>
 			</div>
 			<!-- "col-12 col-md-4"> -->
-			<div class="col-12 col-md-4">
+			<div class="col-12 col-lg-4">
 				<div class="s05tarifs-block">
 					<h3 class="s05tarifs-title s05tarifs-title__silver">Silver</h3>
 						<ul>
@@ -265,7 +265,7 @@
 				</div>
 			</div>
 			<!-- "col-12 col-md-4"> -->
-			<div class="col-12 col-md-4">
+			<div class="col-12 col-lg-4">
 				<div class="s05tarifs-block">
 					<div class="s05tarifs-title s05tarifs-title__gold">Gold</div>
 					<img src="img/01_main/5.tarifs/flag-t.png" alt="" class="s05tarifs-title__gold-flag">
@@ -334,7 +334,7 @@
 			с удовольствием ответим Вам
 		</div>
 
-		<form id="s07contacts-form" action="">
+		<form id="s07contacts-form" action="#">
 		<!-- <div class="row align-items-center justify-content-center"> -->
 			<div class="row  justify-content-center">
 

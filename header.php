@@ -56,7 +56,7 @@
 
 <!-- <section class="fscreen fscreen-slider" id="2.first"> -->
 
-<section class="fscreen fscreen-slider" id="2.first">
+<section class="fscreen fscreen-slider">
 
 <div class="first-slide">
 	<div class="container">
@@ -158,7 +158,7 @@
 
 <!-- <section class="fscreen fscreen-slider" id="2.first"> -->
 
-<section class="fscreen fscreen-slider" id="2.first">
+<section class="fscreen fscreen-slider">
 
 
 <div class="first-slide">
@@ -259,7 +259,7 @@
 
 <!-- <section class="fscreen fscreen-slider" id="2.first"> -->
 
-<section class="fscreen fscreen-slider" id="2.first">
+<section class="fscreen fscreen-slider">
 
 <div class="first-slide">
 	<div class="container">
@@ -358,7 +358,7 @@
 
 <!-- <section class="fscreen fscreen-slider" id="2.first"> -->
 
-<section class="fscreen fscreen-slider" id="2.first">
+<section class="fscreen fscreen-slider">
 
 
 <div class="first-slide">
@@ -457,7 +457,7 @@
 
 <!-- <section class="fscreen fscreen-slider" id="2.first"> -->
 
-<section class="fscreen fscreen-slider" id="2.first">
+<section class="fscreen fscreen-slider">
 
 
 <div class="first-slide">
@@ -555,7 +555,7 @@
 
 <!-- <section class="fscreen fscreen-slider" id="2.first"> -->
 
-<section class="fscreen fscreen-slider" id="2.first">
+<section class="fscreen fscreen-slider">
 
 
 <div class="first-slide">
@@ -654,7 +654,7 @@
 
 <!-- <section class="fscreen fscreen-slider" id="2.first"> -->
 
-<section class="fscreen fscreen-slider" id="2.first">
+<section class="fscreen fscreen-slider" >
 
 
 <div class="first-slide">

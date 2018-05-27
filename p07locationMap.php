@@ -41,31 +41,21 @@
 
 		</div>
 		<!-- <div class="container"> -->
-
-	<form class="p07locationMap-form" action="">
-		<label class="p07locationMap-form__label" for="">Добавить адрес:</label>
+		
+		<div class="container">
+	<form class="p07locationMap-form" action="#">
+	
+		<label class="p07locationMap-form__label" for="p07locationMap-form__name">Добавить адрес:</label>
 		
 		<div class="row p07locationMap-inputs justify-content-around">
-			<input class="p07locationMap-form__name" type="text" placeholder="Введите адрес Вашего мероприятия">
+			<input id="p07locationMap-form__name" class="p07locationMap-form__name" type="text" placeholder="Введите адрес Вашего мероприятия">
 			<button class="button p07locationMap-button">ДОБАВИТЬ</button>
 		</div>
 	</form>
-
-
-
+	</div>
 
 	</section>
-
-				<!-- <form class="videoWidget-form" action="#">
-					<label for="videoWidget-form__input">Ссылка на видео</label>
-					<div>
-						<input type="text" placeholder="Введите адрес Вашего видео">
-						<button class="button">ДОБАВИТЬ</button>
-
-					</div>
-				</form> -->
-
-
+<!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 		<div class="btn-blocks">
 
 			<div class="btn-block btn-block1">

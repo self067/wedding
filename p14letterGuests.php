@@ -73,7 +73,7 @@
 				</div>
 				<div class="row p14letterGuests-form-inputs justify-content-between align-items-center">
 					<input class="p14letterGuests-form__name" type="text" placeholder="Выберите фото с компьютера">
-					<button class="button button-o">Обзор</button>
+					<button class="button button-o p14letterGuests-form__button-browse">Обзор</button>
 					<div class="p14letterGuests-form__browse">Или просто перетащите фото сюда</div>
 
 				</div>

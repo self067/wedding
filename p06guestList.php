@@ -81,15 +81,19 @@
 		</div>
 		<!-- <div class="container"> -->
 
-		<form class="p06guestList-form" action="">
-			<label class="p06guestList-form__label" for="">Добавить гостя</label>
+		<div class="container">
+
+		<form class="p06guestList-form" action="#">
+
+				<label class="p06guestList-form__label" for="p06guestList-form__name">Добавить гостя</label>
 			
-			<div class="row p06guestList-inputs justify-content-around">
-				<input class="p06guestList-form__name" type="text" placeholder="Введите имя">
-				<input class="p06guestList-form__name" type="text" placeholder="Введите фамилию">
-				<button class="button ">ДОБАВИТЬ</button>
-			</div>
-		</form>
+				<div class="row p06guestList-inputs justify-content-around">
+					<input id="p06guestList-form__name" class="p06guestList-form__name" type="text" placeholder="Введите имя">
+					<input class="p06guestList-form__name" type="text" placeholder="Введите фамилию">
+					<button class="button p06guestList-form__button">ДОБАВИТЬ</button>
+				</div>
+		</form> 
+		</div>
 
 	</section>
 

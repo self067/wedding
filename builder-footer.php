@@ -250,13 +250,13 @@ $(document).ready(function(){
 							<!-- <img src="img/logo-mywedding.png" alt="logo"> -->
 							</a>
 						</li>
-						<li class="hide-mobile">
+						<li class="hide-mobile576">
 							<a href="#">Мои сайты</a>
 						</li>
-						<li class="hide-mobile">
+						<li class="hide-mobile576">
 							<a href="#">Тарифы и оплата</a>
 						</li>
-						<li class="hide-mobile">
+						<li class="hide-mobile576">
 							<a href="#">Личный кабинет</a>
 						</li>
 						<li>

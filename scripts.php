@@ -137,10 +137,13 @@
 <!-- Masks -->
 	<script>
 		jQuery(function ($) {
-			// $("#phone").mask("+7(999) 999-9999");
-			// $("#phone1").mask("+7(999) 999-9999");
-			// $("#phone2").mask("+7(999) 999-9999");
-			// $("#phone3").mask("+7(999) 999-9999");
+			$("#phone").mask("+7(999) 999-9999");
+			$("#s05tarifs-modal-phone").mask("+7(999) 999-9999");
+			$("#p02auth-phone").mask("+7(999) 999-9999");
+			
+			$("#phone1").mask("+7(999) 999-9999");
+			$("#phone2").mask("+7(999) 999-9999");
+			$("#phone3").mask("+7(999) 999-9999");
 			// $("#phone-mod").mask("+7(999) 999-9999");
 			// $("#phone-o").mask("+7(999) 999-9999");
 			//,{completed:function(){alert("You typed the following: "+this.val());}});
